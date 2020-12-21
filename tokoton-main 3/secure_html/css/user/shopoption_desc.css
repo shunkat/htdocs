@@ -1,0 +1,22 @@
+body,form,fieldset{margin:0; padding:0;}
+fieldset{border:none;}
+h1,h2,h3,h4,h5,h6,p,pre,blockquote,ul,ol,dl,dt,dd{margin:0; padding:0;}
+li{list-style:none;}
+
+html,body{height:100%;}
+
+body{line-height:150%;font-size:78%;color:#666666;}
+
+div#option_box{padding:10px 20px 20px 20px;width:600px;}
+p#close{text-align:right;}
+p#close a{color:#3399cc; padding:5px;}
+p#close a:hover{color:#3366CC;}
+h1#optiondesc{font-size:14px; color:#9c4e85; background:#fff5fc; padding:5px;}
+table{width:600px; margin-top:10px; margin-right:30px; border-top:1px solid #bbbbbb; border-left:1px solid #bbbbbb; background:#FFFFFF;}
+table td{padding:5px; border-right:1px solid #bbbbbb; border-bottom:1px solid #bbbbbb;}
+td.left_top{width:45px; text-align:center; background:#f8f8f8;}
+td.right_top{background:#f8f8f8;}
+td.left{width:45px; text-align:center;}
+td.right strong{color:#008aab;}
+td a{color:#3399cc;}
+td a:hover{color:#3366CC;}

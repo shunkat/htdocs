@@ -1,0 +1,280 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul#tab {
+	display: table;
+	width:100%;
+	table-layout: fixed;
+	zoom: 1;
+	/*border-bottom: 3px solid #49A500;*/
+	list-style: none;
+	margin: 10px auto;
+	padding: 0;
+}
+.tab-list {
+	text-align: center;
+	display: table-cell;
+}
+/*
+.tab-list:first-child {
+	border-left: 3px solid #FFF;
+	border-right: 3px solid #FFF;
+}
+.tab-list:last-child {
+	border-left: 3px solid #FFF;
+	border-right: 3px solid #FFF;
+}*/
+.tab-list a {
+	display: block;
+	padding: 8px 0;
+	text-decoration: none;
+	/*color: #222;*/
+	/*background: #F2F2F2;*/
+	text-align: center
+}
+.tab-list a:hover {
+	background: #49A500;
+	color: #fff;
+}
+.tab-list.active,
+.tab-list.active a,
+.tab-list.active a:hover {
+	background: #49A500;
+	color: #fff;
+	/*margin-right:3px;*/
+}
+
+#plan_none,
+#plan_none a,
+#plan_none a:hover {
+	background: #606060;
+	color: #fff;
+	margin-right:3px;
+}
+
+
+#detail {
+	clear: both;
+	overflow: hidden;
+	width: 95%;
+	margin:10px auto;
+}
+.tabbox {
+	display: none;
+}
+
+#detail #tab1 div pre {
+	overflow: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+
+/*プラン１*/
+ul#plan1-price {
+	display: table;
+	width:100%;
+	table-layout: fixed;
+	zoom: 1;
+	border-bottom: 3px solid #49A500;
+	list-style: none;
+	margin: 10px auto;
+	padding: 0;
+}
+ul#plan1-price li {
+	text-align: center;
+	display: table-cell;
+	border-left: 3px solid #FFF;
+}
+ul#plan1-price li:first-child {
+	border-left: none;
+}
+
+ul#plan1-price li a {
+	display: block;
+	padding: 8px 0;
+	text-decoration: none;
+	color: #222;
+	background: #F2F2F2;
+	text-align: center
+}
+ul#plan1-price li a:hover {
+	background: #49A500;
+	color: #fff;
+}
+ul#plan1-price li.active,
+ul#plan1-price li.active a,
+ul#plan1-price li.active a:hover {
+	background: #49A500;
+	color: #fff;
+	margin-right:3px;
+}
+#plan1-detail-price {
+	clear: both;
+	overflow: hidden;
+	width: 95%;
+	margin:10px auto;
+}
+
+.plan1box-price {
+	display: none;
+}
+
+/*プラン２*/
+ul#plan2-price {
+	display: table;
+	width:100%;
+	table-layout: fixed;
+	zoom: 1;
+	border-bottom: 3px solid #49A500;
+	list-style: none;
+	margin: 10px auto;
+	padding: 0;
+}
+ul#plan2-price li {
+	text-align: center;
+	display: table-cell;
+	border-left: 3px solid #FFF;
+}
+ul#plan2-price li:first-child {
+	border-left: none;
+}
+
+ul#plan2-price li a {
+	display: block;
+	padding: 8px 0;
+	text-decoration: none;
+	color: #222;
+	background: #F2F2F2;
+	text-align: center
+}
+ul#plan2-price li a:hover {
+	background: #49A500;
+	color: #fff;
+}
+ul#plan2-price li.active,
+ul#plan2-price li.active a,
+ul#plan2-price li.active a:hover {
+	background: #49A500;
+	color: #fff;
+	margin-right:3px;
+}
+#plan2-detail-price {
+	clear: both;
+	overflow: hidden;
+	width: 95%;
+	margin:10px auto;
+}
+
+.plan2box-price {
+	display: none;
+}
+
+/*プラン３*/
+ul#plan3-price {
+	display: table;
+	width:100%;
+	table-layout: fixed;
+	zoom: 1;
+	border-bottom: 3px solid #49A500;
+	list-style: none;
+	margin: 10px auto;
+	padding: 0;
+}
+ul#plan3-price li {
+	text-align: center;
+	display: table-cell;
+	border-left: 3px solid #FFF;
+}
+ul#plan3-price li:first-child {
+	border-left: none;
+}
+
+ul#plan3-price li a {
+	display: block;
+	padding: 8px 0;
+	text-decoration: none;
+	color: #222;
+	background: #F2F2F2;
+	text-align: center
+}
+ul#plan3-price li a:hover {
+	background: #49A500;
+	color: #fff;
+}
+ul#plan3-price li.active,
+ul#plan3-price li.active a,
+ul#plan3-price li.active a:hover {
+	background: #49A500;
+	color: #fff;
+	margin-right:3px;
+}
+#plan3-detail-price {
+	clear: both;
+	overflow: hidden;
+	width: 95%;
+	margin:10px auto;
+}
+
+.plan3box-price {
+	display: none;
+}
+
+
+/*料金テーブル*/
+
+.price-title {
+	font-size:14px;
+	color:#49A500;
+	margin-bottom:10px;
+
+}
+
+.car-description {
+	width:100%;
+	margin:10px 0;
+	color:#333;
+}
+
+.car-description th{
+	vertical-align:middle;
+	text-align:left;
+	line-height:15px;
+	font-size:12px;
+}
+
+.car-description td img{
+	float:right;
+	
+}
+.price-table {
+	width:100%;
+	font-size:12px;
+	color:#333;
+}
+
+.price-table th {
+	vertical-align:middle;
+	text-align:left;
+	padding:10px;
+	border:1px solid #c4c4c4;
+}
+
+.price-table td {
+	vertical-align:middle;
+	text-align:right;
+	padding:10px;
+	border:1px solid #c4c4c4;
+}
+
+.bg01 {
+	background:#F2F2F2;
+}
+
+.color01 {
+	color:#E74C3C;
+}
+
+.fontB {
+	font-weight:bold;
+}

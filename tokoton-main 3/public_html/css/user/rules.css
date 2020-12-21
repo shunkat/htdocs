@@ -1,0 +1,13 @@
+h2#rules{padding:20px 0;}
+
+div#rules_box{padding:10px; margin-top:10px; margin-bottom:40px; margin-left:auto; margin-right:auto; width:898px; border:1px solid #cccccc;}
+h3{font-size:110%; color:#339900; padding-bottom:2px;}
+p.declaration{padding-bottom:7px; border-bottom:1px dotted #cccccc; margin-bottom:5px;}
+
+dt{padding:5px 0;font-weight:bold;color:#009900;}
+dd{padding:0 0 20px 16px;}
+dd a{color:#23901e;}
+dd a:hover{text-decoration:none; color:#FF6600;}
+
+ol{margin:10px 0 10px 25px;font-weight:bold;line-height:20px;}
+ol li{list-style-type:decimal;}

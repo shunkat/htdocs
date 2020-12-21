@@ -1,0 +1,5 @@
+#urichan_efo_popup.urichan_efo_popup{position:fixed;bottom:60px;left:0;width:100%;padding:16px;background-color:rgba(0, 0, 0, .9);color:#ffffff;font-size:14px;font-weight:400;font-family:sans-serif;text-align:center;box-sizing:border-box;}
+#urichan_efo_popup.urichan_efo_popup .urichan_efo_popup_help{width:100%;height:100%;}
+#urichan_efo_popup.urichan_efo_popup .urichan_efo_popup_help_text{padding:0;margin:0;font-size:14px;font-weight:700;padding:0 0 12px 0;}
+#urichan_efo_popup.urichan_efo_popup .urichan_efo_popup_help_btn{display:block;position:relative;top:-5px;width:100%;-webkit-appearance:none;-moz-appearance:none;appearance:none;border:0;margin:0;padding:8px;background-color:#f01f46;font-size:20px;font-weight:700;color:#ffffff;box-shadow:0 5px 0 rgba(255, 0, 0, .7);}
+#urichan_efo_popup.urichan_efo_popup .urichan_efo_popup_help_btn:hover{top:0;box-shadow:0 0 0 rgba(255, 0, 0, .7);}

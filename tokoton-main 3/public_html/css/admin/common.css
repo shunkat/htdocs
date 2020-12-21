@@ -1,0 +1,150 @@
+﻿body,h1,h2,h3,h4,h5,h6,p,pre,blockquote,ul,ol,dl,dd,li{margin:0;padding:0;list-style:none;}
+body{line-height:150%;font-size:78%;color:#333333; font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";}
+
+form{padding:0;margin:0;}
+
+div#content{width:900px; margin-left:auto; margin-right:auto;}
+
+div.content_sub{margin:0 30px;}
+
+div#header strong#header_title{color:#257c89;}
+div#header strong#header_time{color:#339933;}
+
+div#header table{width:100%;border-top:5px solid #257c89;border-bottom:2px solid #e5e5e5;background:#f8f8f8;}
+div#header table td{padding:5px;}
+
+a#btn_logout{border:3px solid #257c89;background:#4899a5;padding:5px;color:white;font-weight:bold;text-decoration:none;float:right;}
+a:hover#btn_logout{background:white;color:#4899a5;}
+
+div#header ul#mainmenu{margin:10px;height:38px;background:white;border:1px solid #257c89;}
+div#header ul#mainmenu li{float:left;padding:10px;}
+div#header ul#mainmenu li a{color:#257c89;}
+div#header ul#mainmenu li a:hover{color:white;background:#5db2bf;text-decoration:none;}
+
+div#header ul#mainmenu li.act{background:#257c89;}
+div#header ul#mainmenu li.act a{color:white;}
+div#header ul#mainmenu li.act a:hover{color:white;text-decoration:none;}
+
+div.breadcrumb{margin:0 20px; font-size:90%;}
+
+h2{font-size:15px;color:#257c89;margin:0 20px;padding:10px;border-left:#257c89 5px solid;border-bottom:#257c89 1px solid;margin-top:20px;}
+
+ul#submenu{height:30px;margin:0 20px;background:#ffffff;margin-top:1px;}
+ul#submenu li{float:left;}
+ul#submenu li a{display:block;color:#669966;padding:5px;border-right:1px solid white;}
+ul#submenu li a:hover{text-decoration:none; color:#CC6600;}
+
+
+ul#submenu_vertical{margin-left:20px;margin-top:30px;float:left;background:#eeeeee;border:1px solid #cccccc;padding:10px;position:absolute;}
+ul#submenu_vertical li a{display:block;width:150px;color:#267783;background:white;padding:4px;text-decoration:none;margin-bottom:10px;border:1px solid #267783;}
+ul#submenu_vertical li a:hover{color:white;background:#5db2bf;border:1px solid #267783;text-decoration:underline;}
+
+ul#submenu_vertical li.act a{display:block;width:150px;color:white;background:#267783;padding:4px;text-decoration:none;margin-bottom:10px;border:1px solid white;}
+ul#submenu_vertical li.act a:hover{color:#267783;background:white;border:1px solid #267783;text-decoration:underline;}
+
+div.messagebox{border:1px solid #1f5592; padding:10px; margin:10px 30px; color:#003c80;}
+div.messagebox_error{border:1px solid red; padding:10px; margin:10px 30px; color:red;}
+
+div.info{background:#f8f8f8;border:1px solid #1f5592; padding:8px; margin:7px 0;}
+span.important{font-size:120%; font-weight:bold;}
+
+div#footer{margin-top:50px;background:#f8f8f8;color:#257c89;font-weight:bold;border-top:1px solid #aaaaaa;border-bottom:1px solid #aaaaaa;padding:5px;text-align:center;}
+
+h3{font-size:15px;color:#257c89;margin:30px 20px 15px 20px;padding:5px;border:1px solid #7bbac3;background:#d3e8eb;}
+
+
+div#search{border:1px solid #257c89;margin:0 10px;}
+
+table#result{margin-left:auto;margin-right:auto;}
+table#result td{vertical-align:top;}
+
+table#search{width:190px;border:1px solid #cccccc;}
+table#search td{padding:2px;}
+
+td.cell_title{background:#dedede;font-weight:bold;}
+td.cell_label{border:1px solid #d9ebee;background:#eeeeee;border:1px solid #EEEEEE;color:#000000;}
+td.cell_value{border:4px solid white;}
+td.cell_submit{text-align:center;}
+td.cell_lefty{text-align:left;}
+
+
+/* セルの装飾 */
+td.cell_on{/* background:#c3eaea; */text-align:center;}
+td.cell_on2{text-align:center; background:#c3eaea;}
+td.cell_off{background:#898989;text-align:center;}
+td.cell_notready{background:#FFCC66;text-align:center;}
+td.cell_ready{background:#d64f4f;text-align:center;}
+td.cell_attention{background:#333333; color:#FFFFFF;text-align:center;}
+
+span.active{color:#339900;}
+span.deactive{color:#CC0000;}
+
+div#statall{color:#333333;margin:0 10px 10px 0;text-align:center;padding:10px;width:170px; border:1px solid #CCCCCC;}
+
+td.result_list{height:100%;vertical-align:top;}
+
+table.list{border-top:1px solid #aaaaaa;border-left:1px solid #aaaaaa;margin:15px 0;}
+table.list td{padding:5px;border-right:1px solid #aaaaaa;border-bottom:1px solid #aaaaaa;}
+
+div.result_stat{background:#f1f1f1;color:#333333;padding:5px;margin-bottom:10px;border:1px solid #cccccc;}
+div.result_stat select{float:right;margin-top:10px;}
+
+
+div.pagenation{text-align:center;margin-top:10px;padding-bottom:10px;border-bottom:1px solid #cccccc;}
+div.pagenation a{color:#215b64;padding:6px;margin-right:5px;}
+div.pagenation a:hover{background:#b2d3d8;text-decoration:none;}
+
+div.pagenation b{color:#215b64;padding:6px;margin-right:5px;background:#b2d3d8;}
+
+/* J edit */
+
+.useful_centerpadding{padding:10px;text-align:center;}
+h5#area_name{background:#777777;color:white;margin:10px 0;padding:10px;border:1px solid #666666;}
+h6{background:#eeeeee;border:1px solid #dddddd;}
+
+/* table default */
+table.common{width:100%;border:1px solid #CCCCCC;margin:15px 0;border-collapse:collapse;}
+table.common td{border:1px solid #CCCCCC;padding:3px;}
+
+p.description{margin-top:10px;color:#257c89;;}
+
+div.separator_right{padding-left:190px;}
+
+/* アカウント詳細 */
+table#detail{margin-left:auto;margin-right:auto; margin-top:15px; border:1px solid #cccccc; border-right:none;}
+table#detail td{vertical-align:top; border-right:1px solid #cccccc;}
+
+table.subdetail{width:230px;border:1px solid #cccccc; border-bottom:none; margin:8px; border-right:none;}
+table.subdetail td{padding:3px; vertical-align:middle; border-bottom:1px solid #cccccc;}
+
+a.btn_open{width:146px;padding:5px 40px; color:#333333; text-decoration:none;background:#ffffff; display:block; margin:6px 8px; border:2px solid #cccccc; text-align:center;}
+a.btn_open:hover{background:#f5fffd;}
+
+td#detail_shop{padding:5px 7px; background:#dedede; font-weight:bold;}
+td.subdetail_title{background:#eeeeee;}
+td.subdetail_label{background:#f8f8f8; border-right:1px solid #cccccc;}
+td.subdetail_label_center{background:#f8f8f8; border-right:1px solid #cccccc;text-align:center;}
+td.subdetail_value{text-align:center;}
+span.ok{font-weight:bold; color:#00CC00;}
+span.option_active{font-weight:bold; color:#0066FF;}
+
+h4{font-size:15px;color:#666666;margin:0 10px;padding:6px;border-left:#666666 5px solid;border-bottom:#666666 1px solid;margin-top:10px;}
+textarea{width:90%; margin:10px;}
+table.subdetail_right{width:96%; margin:10px;border:1px solid #cccccc; border-bottom:none; border-right:none;}
+table.subdetail_right td{padding:3px; vertical-align:middle; border-bottom:1px solid #cccccc; text-align:left;}
+
+img.pic{margin:3px; border:1px solid #999999;}
+p.pic{width:120px; height:120px; border:1px solid #cccccc; float:left; margin:10px;}
+span.atention{font-weight:bold; color:#FF0000;}
+
+/* 店舗紹介内容 */
+table#table_detail{text-align:left;}
+td.indent{padding:0 10px;}
+
+/* 2009/08/24　店舗詳細ページ title keywords discription 編集追加 */
+.red{ color:#f00; }
+div.submit_box{ text-align:center; }
+table.keyTab{ width:100%; border: 1px #cccccc solid; border-collapse: collapse; margin:0px auto; }
+table.keyTab th{ font-weight:normal; background-color:#F8F8F8; border: 1px #cccccc solid; padding:2px; }
+table.keyTab td{ border: 1px #cccccc solid; padding:2px; }
+table.keyTab td.tabLabel{  background-color:#F8F8F8; }

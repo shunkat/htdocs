@@ -1,0 +1,33 @@
+h2#coupon{background:url(/img/user/coupon/pagetitle_coupon.gif) no-repeat center center; width:93px; height:20px; text-indent:-9999px; overflow:hidden; padding:20px 0;}
+
+div#coupon{padding:20px 0;}
+
+div#coupon_box{padding:3px; border:2px solid #62ba20; width:700px; margin-left:auto; margin-right:auto;}
+pre#coupon_list{padding:5px 0; width:590px; margin-left:auto; margin-right:auto;white-space: -moz-pre-wrap;white-space: -pre-wrap;white-space: -o-pre-wrap;white-space: pre-wrap;word-wrap: break-word;font-size:95%; font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";}
+p#timelimit{margin:10px 0; background:#FFCC99; padding:5px; font-weight:bold; text-align:center; color:#CC0000;}
+p#attention{padding:0 10px 3px 10px;}
+p#shopname{padding-left:10px; padding-bottom:5px; font-size:110%; font-weight:bold;}
+
+div#map{width:550px; height:450px; border:#bbbbbb 1px solid; margin-left:auto; margin-right:auto; margin-top:30px;}
+
+table{width:550px; margin-top:30px; margin-left:auto; margin-right:auto; border-top:1px solid #bbbbbb; border-left:1px solid #bbbbbb;}
+table td{padding:5px; border-right:1px solid #bbbbbb; border-bottom:1px solid #bbbbbb;}
+td.left{background:#f0f0f0;}
+
+p#printout{background:url(/img/user/coupon/btn_printout.gif) no-repeat; width:225px; height:32px; text-indent:-9999px; overflow:hidden; margin-left:auto; margin-right:auto; cursor:pointer; margin-top:20px;}
+p#back{margin-left:15px;}
+
+@media print {
+
+body div#container{border:none;margin:0;padding:0;}
+body div#header{display:none;}
+body div#footer{display:none;}
+body ul#breadcrumb{display:none;}
+  
+  body div{float:none;width:500px;padding:5px;margin:0;}
+  h2{display:none;}
+  p#printout{display:none;}
+  p#back{display:none;}
+  p#desc{display:none;}
+  div#coupon{padding:0;}
+}

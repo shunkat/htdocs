@@ -1,0 +1,42 @@
+/* CSS Document */
+
+div#content_left{float:left;width:420px;margin-left:10px;}
+div#content_right{float:right;width:420px;margin-right:10px;margin-left:10px;}
+
+div#content_left p{line-height:170%;}
+div#content_right p{line-height:170%;}
+
+h2#header_useinfo{padding:20px 0;}
+h4#whatis_catch{margin:20px 0 10px 0;}
+
+
+/* flow */
+
+ul#list_flow{margin:10px 0 40px 0;}
+ul#list_flow li{display:inline;}
+ul#list_flow li img{display:block;}
+
+/* feature */
+
+h4#feature_catch{margin:20px 0;}
+
+dl#feature_list{margin:30px 0;}
+
+dt.feature_1{margin-left:90px;}
+dd.feature_1{height:70px;background:url(/img/user/useinfo/feature_1_bg.gif) no-repeat top left;padding-left:90px;padding-top:30px;margin-top:-20px;}
+
+dt.feature_2{margin-left:90px;}
+dd.feature_2{height:70px;background:url(/img/user/useinfo/feature_2_bg.gif) no-repeat top left;padding-left:90px;padding-top:30px;margin-top:-20px;}
+
+dt.feature_3{margin-left:90px;}
+dd.feature_3{height:70px;background:url(/img/user/useinfo/feature_3_bg.gif) no-repeat top left;padding-left:90px;padding-top:30px;margin-top:-20px;}
+
+
+dt.feature_4{margin-left:90px;}
+dd.feature_4{height:70px;background:url(/img/user/useinfo/feature_4_bg.gif) no-repeat top left;padding-left:90px;padding-top:30px;margin-top:-20px;}
+
+
+h3{background:none;color:#197100;background-color:#b2dd44;padding:5px 10px;border:1px solid #9cc435;width:auto;margin:20px 10px 30px 0;font-size:12px;}
+h3#header_whatis{width:364px;}
+h3#header_flow{width:364px;}
+h3#header_feature{width:400px;}

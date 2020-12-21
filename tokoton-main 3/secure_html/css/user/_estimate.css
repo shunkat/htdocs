@@ -1,0 +1,30 @@
+h2#estimate{background:url(images/estimate/pagetitle_estimate.gif) no-repeat center center; width:143px; height:20px; text-indent:-9999px; overflow:hidden; padding:20px 0;}
+h2#estimate_confirm{background:url(images/estimate/pagetitle_estimate_check.gif) no-repeat center center; width:167px; height:20px; text-indent:-9999px; overflow:hidden; padding:20px 0;}
+h2#estimate_fin{background:url(images/estimate/pagetitle_estimate_fin.gif) no-repeat center center; width:112px; height:20px; text-indent:-9999px; overflow:hidden; padding:20px 0;}
+
+p#desc{padding:0 10px 10px 0;}
+
+table#userdata{border-top:1px solid #63bc22; border-left:1px solid #63bc22; border-spacing:0; border-collapse:collapse; margin-bottom:30px; width:100%;}
+td.rabel{background:#e2f7b2; padding:6px; border-right:1px solid #63bc22; border-bottom:1px solid #63bc22; color:#555555;}
+td.value{padding:6px; border-right:1px solid #63bc22; border-bottom:1px solid #63bc22;}
+p.tips{margin-left:40px; display:inline;}
+
+p#service{margin:10px 0 10px 10px; font-weight:bold; color:#00921d;}
+table#servicemenu{border-top:1px solid #63bc22; border-left:1px solid #63bc22; border-spacing:0; border-collapse:collapse; margin-left:10px; margin-bottom:20px; width:885px;}
+td.check{text-align:center;padding:6px; border-right:1px solid #63bc22; border-bottom:1px solid #63bc22;}
+td.rabel_check{background:#e2f7b2; padding:6px; border-right:1px solid #63bc22; border-bottom:1px solid #63bc22; text-align:center; color:#555555;}
+td#btn{padding:6px 277px; border-right:1px solid #63bc22; border-bottom:1px solid #63bc22;}
+
+p#check a{background:url(images/estimate/check_btn.gif) no-repeat; width:180px; height:47px; text-indent:-9999px; overflow:hidden; display:block; margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:5px;}
+p#check a:hover{background:url(images/estimate/check_btn.gif) no-repeat bottom; width:180px; height:47px;} 
+label{cursor:pointer;}
+
+/* Šm”F‰æ–Ê */
+span.highlight{font-weight:bold;}
+p#transmission a{background:url(images/estimate/transmission_btn.gif) no-repeat; width:180px; height:47px; text-indent:-9999px; overflow:hidden; display:block; float:left; margin-top:10px; margin-bottom:5px;}
+p#transmission a:hover{background:url(images/estimate/transmission_btn.gif) no-repeat bottom; width:180px; height:47px;}
+p#revision a{background:url(images/estimate/revision_btn.gif) no-repeat; width:180px; height:47px; text-indent:-9999px; overflow:hidden; display:block; margin-top:10px; margin-bottom:5px;}
+p#revision a:hover{background:url(images/estimate/revision_btn.gif) no-repeat bottom; width:180px; height:47px;}
+
+/* Š®—¹‰æ–Ê */
+p#box_estimate_fin{width:700px; padding:10px; border:1px solid #006699; color:#006699; margin-top:50px; margin-left:auto; margin-right:auto; margin-bottom:50px; text-align:center;}

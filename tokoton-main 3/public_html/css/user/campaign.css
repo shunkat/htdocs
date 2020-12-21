@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+h2#campaign{background:url(/img/user/campaign/header_pagetitle.gif) no-repeat center center; width:159px; height:20px; text-indent:-9999px; overflow:hidden; padding:20px 0;}
+
+div#container_sub{width:532px;border:2px solid #f34a80;margin:10px auto 40px;}
+
+h3#campaign_title{color:#ffffff; background:#f34a80; padding:10px; margin-bottom:10px; width:512px; font-size:140%;}
+
+div#container_sub img{border:1px solid #CCCCCC; margin:10px 15px;}
+
+div#detail{padding:15px;}
+
+pre{width:480px;white-space: -moz-pre-wrap;white-space: -pre-wrap;white-space: -o-pre-wrap;white-space: pre-wrap;word-wrap: break-word;font-size:95%; font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3"}
+
+p#range{padding-top:15px;color:#d6084a; font-weight:bold;}
+

@@ -1,0 +1,324 @@
+h2#estimate_test{background:url(/img/user/estimate/pagetitle_estimate.gif) no-repeat center center; width:143px; height:20px; text-indent:-9999px; overflow:hidden; padding:20px 0;}
+h2#estimate_confirm_test{background:url(/img/user/estimate/pagetitle_estimate_check.gif) no-repeat center center; width:167px; height:20px; text-indent:-9999px; overflow:hidden; padding:20px 0;}
+h2#estimate_fin_test{background:url(/img/user/estimate/pagetitle_estimate_fin.gif) no-repeat center center; width:112px; height:20px; text-indent:-9999px; overflow:hidden; padding:20px 0;}
+
+p#desc{padding:0 10px 10px 0;}
+
+h3#selected_plan{padding:5px 0;color:#006633;border-bottom:1px dashed #006600;margin-bottom:5px;}
+
+/* Jedit */
+table#shopdata{border-top:1px solid #cccccc; border-left:1px solid #cccccc; border-spacing:0; border-collapse:collapse; margin-bottom:30px; width:100%;}
+table#shopdata td.rabel{background:#e2f7b2; padding:10px; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; color:#009900;}
+table#shopdata td.value{padding:10px; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc;color:#009933;font-weight:bold;}
+
+table#cardata{border-top:1px solid #cccccc; border-left:1px solid #cccccc; border-spacing:0; border-collapse:collapse; margin-bottom:10px; width:450px;}
+table#cardata td.rabel{background:#e2f7b2; padding:5px; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; color:#009900;}
+table#cardata td.value{padding:5px; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc;}
+
+table#customerdata{border-top:1px solid #cccccc; border-left:1px solid #cccccc;border-spacing:0; border-collapse:collapse; margin-bottom:10px; width:450px;}
+table#customerdata td.rabel{background:#e2f7b2; padding:5px; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; color:#009900;}
+table#customerdata td.value{padding:5px; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc;}
+
+
+div.attention{background:#ffffff;padding:0;font-size:10px;line-height:15px;margin-bottom:30px;}
+
+td.title{color:#e18f00;font-weight:bold;paddding:6px; border-bottom:1px solid #cccccc; text-align:left;padding-left:10px;}
+td.rabel_title{background:#f7e3b2; padding:10px; border-bottom:1px solid #cccccc; color:#CC3300;}
+
+div#box_carinfo{float:left;}
+div#box_customer{float:right;}
+
+p#caption_carinfo{margin:10px 0 10px 0; font-weight:bold; color:#FF6633;}
+p#caption_customer{margin:10px 0 10px 0; font-weight:bold; color:#FF6633;}
+p#caption_service{margin:10px 0 10px 0; font-weight:bold; color:#FF6633;}
+
+/* Jedit end */
+
+table#userdata{border-top:1px solid #cccccc; border-left:1px solid #cccccc; border-spacing:0; border-collapse:collapse; margin-bottom:30px; width:100%;}
+td.rabel{background:#f7e3b2; padding:10px; border-bottom:1px solid #cccccc; color:#CC3300;}
+td.value{padding:10px; border-bottom:1px solid #cccccc;}
+p.tips{display:inline;color:#666666;font-size:10px;}
+
+table#servicemenu{border-top:1px solid #dfc797; border-left:1px solid #dfc797;  border-right:1px solid #dfc797;border-spacing:0; border-collapse:collapse; margin-bottom:20px; width:100%;}
+table#servicemenu td.value{border-bottom:1px solid #dfc797;}
+table#servicemenu td.rabel{border-bottom:1px solid #dfc797;}
+table#servicemenu td.rabel_title{border-bottom:1px solid #dfc797;}
+table#servicemenu td.title{border-bottom:1px solid #dfc797;}
+
+td.check{width:120px;text-align:left;padding:6px;  border-bottom:1px solid #dfc797;}
+td.rabel_check{background:#f7e3b2; padding:6px; border-bottom:1px solid #dfc797; text-align:left; color:#CC3300;}
+td#btn{padding:6px 277px;}
+
+p#check a{background:url(/img/user/estimate/check_btn.gif) no-repeat; width:180px; height:47px; text-indent:-9999px; overflow:hidden; display:block; margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:5px;}
+p#check a:hover{background:url(/img/user/estimate/check_btn.gif) no-repeat bottom; width:180px; height:47px;} 
+label{cursor:pointer;}
+
+/*入力画面*/
+.marginTop10{margin-top: 10px;}
+a{color:#3399cc;}
+.bold{ font-weight: bold; }
+
+td.plan_list{padding-left: 35px;vertical-align: middle;}
+
+.price_subtitle{
+	font-weight: bold;
+	color:#090;
+	margin-left: 10px;
+}
+
+
+table.price_table_base,
+table.chengeForm{
+    border-collapse:collapse;
+    border-spacing:0;
+	width: 100%;
+}
+
+tr{
+	line-height:20px;
+}
+
+th{
+	vertical-align:middle;
+	text-align:left;
+}
+
+td{
+	vertical-align:middle;
+	text-align:left;
+}
+
+table.price_table_base th{
+	padding: 10px;
+	
+	vertical-align:middle;
+}
+
+table.price_table_base td,
+table.chengeForm th,
+table.chengeForm td{
+	border-top: 1px solid #ADADAD;
+	padding: 10px;
+}
+
+td.b_s{
+	border-right:1px solid #ADADAD;
+	border-left:1px solid #ADADAD;
+	vertical-align:middle;
+	border-bottom:1px solid #ADADAD;
+}
+
+.b_s2{
+	border-left:1px solid #ADADAD;
+	background-color:#F5F5DC;
+	border-bottom:1px solid #ADADAD;
+}
+
+.bd_style{
+	border-style:none;
+}
+
+.b_top{
+	border-top:1px solid #ADADAD;
+}
+
+div#content td{
+	height:20px;
+}
+
+.line_style{
+	line-height:20px;
+}
+
+.mr8{
+	margin-top:8px;
+}
+
+#text_style00{
+	font-size:25px;
+	margin-top:10px;
+}
+
+#privacy_text{
+	text-align:left;
+}
+
+table.newprice{
+	border: 1px solid #ADADAD;
+	width: 100%;
+}
+table.car_price_box label,
+table.car_price_box list{
+	padding: 10px;
+	vertical-align: middle;
+	text-align: center;
+	border: 1px solid #ADADAD;
+}
+.car_price_list_box{
+	text-align: center;
+}
+
+.car_price_label{
+	background:#F2F9DF;
+	text-align: center;
+}
+.bg_price_title{
+	background: #EEF9CF;
+	font-weight: bold;
+	font-size: 14px;
+}
+.bg_price_subtitle01{
+	background: #EFEFEF;
+}
+table.pric_table{
+	border-collapse:collapse;
+    border-spacing:0;
+	width: 100%;
+}
+
+table.pric_table td{
+	border-left: 1px solid #ADADAD
+	border-bottom: 1px solid #ADADAD;
+	padding: 10px;
+}
+
+table.pric_table th{
+	border-left: 1px solid #ADADAD;
+	border-bottom: 1px solid #ADADAD;
+	padding: 10px;
+}
+
+
+td.border_bottom{
+	border-bottom: 1px solid #ADADAD;
+}
+table.pric_table_car{
+	margin-bottom: 10px;
+}
+table.pric_table_car th,
+table.pric_table_car td{
+	border-top: 1px solid #ADADAD;
+	padding: 10px;
+}
+.bg_price_subtitle{
+	background: #FCF3DE;
+}
+.black_bold{
+	color: #666;
+	font-weight: bold;
+}
+
+*+html h3#selected_plan{
+	font-size:16px;
+}
+
+
+/* 確認画面 */
+span.highlight{font-weight:bold;color:#669a38;}
+
+p#transmission a{background:url(/img/user/estimate/transmission_btn.gif) no-repeat; width:180px; height:47px; text-indent:-9999px; overflow:hidden; display:block; float:left; margin-top:10px; margin-bottom:5px;}
+p#transmission a:hover{background:url(/img/user/estimate/transmission_btn.gif) no-repeat bottom; width:180px; height:47px;}
+
+p#revision a{background:url(/img/user/estimate/revision_btn.gif) no-repeat; width:180px; height:47px; text-indent:-9999px; overflow:hidden; display:block;float:right; margin-top:10px; margin-bottom:5px;}
+p#revision a:hover{background:url(/img/user/estimate/revision_btn.gif) no-repeat bottom; width:180px; height:47px;}
+
+div#btn{width:400px;margin-left:auto;margin-right:auto;}
+
+table#userdata_confirm{border:1px solid #dfc797; border-spacing:0; border-collapse:collapse; margin-bottom:30px; width:100%;}
+table#userdata_confirm td.rabel{border-bottom:1px solid #dfc797;}
+table#userdata_confirm td.value{border-bottom:1px solid #dfc797;}
+
+.thstyle{border-bottom:5px solid #0C3;}
+.b_btm {border-bottom:1px solid #ADADAD;}
+
+/* 完了画面 */
+p#box_estimate_fin{width:700px; padding:10px; border:1px solid #006699; color:#006699; margin-top:50px; margin-left:auto; margin-right:auto; margin-bottom:50px; text-align:center;}
+
+
+/* 個人情報の取り扱いについての確認画面 */
+div#privacy_box{width:800px;height:300px;overflow:auto;margin-left:auto;margin-right:auto;border:1px solid #cccccc; padding:10px;}
+div#privacy_box dt{color:gray;font-weight:bold;margin-bottom:5px;color:#669900;}
+div#privacy_box dd{margin-bottom:20px;}
+
+h3#privacy_header{width:810px;margin-left:auto;margin-right:auto;font-size:110%;padding:5px 0;color:#009900;}
+p#privacy_desc{width:810px;margin-left:auto;margin-right:auto;padding-bottom:20px;}
+
+p#lead_agree{width:800px;color:green;padding:10px;margin:10px auto;text-align:center;}
+p#lead_agree a{color:#3399cc;}
+p#lead_agree a:hover{color:#3366CC;}
+
+p#agree a{background:url(/img/user/estimate/agreed_btn.gif) no-repeat; width:180px; height:47px; text-indent:-9999px; overflow:hidden; display:block; margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:5px;}
+p#agree a:hover{background:url(/img/user/estimate/agreed_btn.gif) no-repeat bottom; width:180px; height:47px;} 
+
+/* 個人情報の取り扱いについて */
+.clear{
+	clear: both;
+}
+#privacy img{
+	border: none;
+}
+#privacy{
+	width:690px;
+	margin: 0 auto;
+	padding: 10px 20px;
+	border: 1px solid #CCC;
+	background: #F2F2F2;
+}
+#privacy h3{
+	font-size: 16px;
+}
+#privacy_box_left{
+	float: left;
+	vertical-align: middle;
+	padding-top: 10px;
+}
+#privacy_box_right{
+	float: right;
+	background: #FFF;
+}
+#privacy_box_right{
+	width: 240px;
+	padding: 0px 1px;
+	border: 1px solid #CCC;
+}
+/*IE6*/
+*html #privacy_box_right{
+	margin: 0px 0px 15px 0px;
+}
+
+*html #header h1{
+	padding-top:4px;
+}
+
+/*IE7*/
+*+html #privacy_box_right{
+	margin: 0px 0px 15px 0px;
+}
+#privacy_box_right table{
+	width: 238px;
+}
+#privacy_box_right table,
+#privacy_box_right tr,
+#privacy_box_right td,
+#privacy_box_right th{
+	border: none;
+	text-align: left;
+	vertical-align: middle;
+}
+#privacy_text{
+	margin-top: 10px;
+	padding: 10px;
+	background: #FFF;
+	border: 1px solid #CCC;
+	width: 628;
+	height: 100px;
+	overflow: auto;
+}
+#privacy_text ol{
+	margin-top: 0px;
+}
+#privacy_text li{
+	font-size: 12px;
+	line-height: 20px;
+}
+

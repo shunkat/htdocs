@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<title>検索結果 | とことん車検ナビ</title>
+<script type="text/javascript" src="./js/main.js"></script>
+<link href="result.css" rel="stylesheet" type="text/css" />
+<link href="common.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="container">
+  <div id="header">
+    <p id="title"><a href="./index.html">とことん車検ナビ - tokoton-navi.com</a></p>
+    <h1>とことん車検ナビは信頼できる全国の車検ショップの車検、お得情報をご紹介。全店舗とことん24対応</h1>
+    <ul id="submenu">
+      <li><a href="#">サイトマップ</a></li>
+      <li><a href="#">プライバシーポリシー</a></li>
+      <li><a href="#">掲載依頼</a></li>
+      <li id="menu_end"><a href="./useinfo.html">利用案内</a></li>
+    </ul>
+    <br class="clear" />
+    <ul id="mainmenu">
+      <li id="mainmenu_home"><a href="./index.html">ホーム</a></li>
+      <li id="mainmenu_list_act"><a href="./search_top.html">車検をさがす</a></li>
+      <li id="mainmenu_tokoton24"><a href="#">とことん24とは？</a></li>
+      <li id="mainmenu_knowledge"><a href="#">車検のいろは</a></li>
+      <li id="mainmenu_faq"><a href="#">よくある質問</a></li>
+      <li id="mainmenu_inquiry"><a href="#">お問い合わせ</a></li>
+    </ul>
+    <br class="clear" />
+  </div>
+  <div id="content">
+    <ul id="breadcrumb">
+      <li><a href="./index.html">ホーム</a></li>
+      <li><a href="./search_top.html">車検をさがす</a></li>
+      <li>検索結果</li>
+    </ul>
+    <br class="clear"/>
+    <h2 id="result">検索結果一覧</h2>
+    <table cellspacing="0" cellpadding="0" id="area">
+      <tr>
+        <td width="80" class="search_label">選択地域 ：</td>
+        <td class="bold">東京都
+          <input type="submit" name="submit" value="変更する"  id="change"/></td>
+      </tr>
+    </table>
+    <table cellspacing="0" cellpadding="0" id="condition">
+      <tr>
+        <td rowspan="4" class="search_label" width="120">絞り込み検索 ：</td>
+        <td width="100" id="search_type_district">-- 地区 --</td>
+        <td width="200"><select name="select">
+            <option selected="selected">選択して下さい</option>
+            <option>========23区=========</option>
+            <option>大田区(15件)</option>
+            <option>世田谷区(10件)</option>
+            <option>========市部=========</option>
+            <option>八王子市(12件)</option>
+            <option>府中市(18件)</option>
+          </select></td>
+        <td width="125" id="search_type_keyword">-- キーワード --</td>
+        <td width="443"><input name="textfield" type="text" size="32" /></td>
+      </tr>
+      <tr>
+        <td rowspan="3" width="100" id="search_type_option">- オプション -</td>
+        <td colspan="3"><input type="checkbox" name="checkbox" value="checkbox" id="option1" />
+          <label for="option1">とことん24取扱い</label>
+          <input type="checkbox" name="checkbox" value="checkbox" id="option2" />
+          <label for="option2"> 整備保証付</label>
+          <input type="checkbox" name="checkbox" value="checkbox" id="option3" />
+          <label for="option3"> 夜間受付</label>
+          <input type="checkbox" name="checkbox" value="checkbox" id="option4" />
+          <label for="option4"> 土日入庫OK</label>
+          <input type="checkbox" name="checkbox5" value="checkbox" id="option5" />
+          <label for="option5"> 代車あり</label>
+          <input type="checkbox" name="checkbox2" value="checkbox" id="option6" />
+          <label for="option6"> 引取・納車OK</label>
+          <input type="checkbox" name="checkbox3" value="checkbox" id="option7" />
+          <label for="option7"> キャッシュレスOK</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" class="checkbox"><input type="checkbox" name="checkbox7" value="checkbox" id="option8" />
+          <label for="option8"> クレジットカード払いOK</label>
+          <input type="checkbox" name="checkbox" value="checkbox" id="option9" />
+          <label for="option9"> グルメプレゼント</label>
+          <input type="checkbox" name="checkbox4" value="checkbox" id="option10" />
+          <label for="option10"> グッズプレゼント</label>
+          <input type="checkbox" name="checkbox6" value="checkbox" id="option11" />
+          <label for="option11"> ガソリンプレゼント</label>
+          <input type="checkbox" name="checkbox6" value="checkbox" id="option12" />
+          <label for="option12"> 抽選でプレゼント</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <input type="checkbox" name="checkbox6" value="checkbox" id="option13" />
+          <label for="option13"> オイル交換サービス</label>
+          <input type="checkbox" name="checkbox6" value="checkbox" id="option14" />
+          <label for="option14"> 車検時限定割引サービス</label></td>
+      </tr>
+      <tr>
+        <td colspan="5" class="search_btn"><input type="submit" name="submit2" value="検索"  id="btn_search"/>
+        </td>
+      </tr>
+    </table>
+    <p id="option_detail"><a href="#">* オプションの詳細はこちら</a></p>
+    <br class="clear" />
+    <div id="sort"><strong>並び順を変更 ： </strong>標準 / <a href="#">店名順</a></div>
+    <div id="corresponding_number">該当件数: <span class="orange">13</span> 件 / 現在 1-10 件目を表示しています</div>
+    <div id="page"><a href="#">&lt;&lt; 前の5件</a> <a href="#">1</a> / 2 / <a href="#">3</a> <a href="#">次の5件 &gt;&gt;</a></div>
+    <br class="clear" />
+    <div class="shopheader">
+      <p class="shopname"><a href="#">株式会社マジカルオート</a><br />
+        ★★★</p>
+      <p class="shopnumber">店舗No.S-0001</p>
+    </div>
+    <div class="iconlist"> <img src="images/result/icon_1.gif" alt="" width="32" height="32" /><img src="images/result/icon_2.gif" alt="" width="32" height="32" /><img src="images/result/icon_3.gif" alt="" width="32" height="32" /><img src="images/result/icon_4.gif" alt="" width="32" height="32" /><img src="images/result/icon_5.gif" alt="" width="32" height="32" /><img src="images/result/icon_6.gif" alt="" width="32" height="32" /><img src="images/result/icon_7.gif" alt="" width="32" height="32" /><img src="images/result/icon_8.gif" alt="" width="32" height="32" /><img src="images/result/icon_9.gif" alt="" width="32" height="32" /><img src="images/result/icon_10.gif" alt="" width="32" height="32" /><img src="images/result/icon_11.gif" alt="" width="32" height="32" /><img src="images/result/icon_12.gif" alt="" width="32" height="32" /><img src="images/result/icon_13.gif" alt="" width="32" height="32" /><img src="images/result/icon_14.gif" alt="" width="32" height="32" /> </div>
+    <br class="clear" />
+    <div class="intro">
+      <div class="intro_main">
+        <p class="catch">新車・中古車・サービス、お客様のニーズにお応えします。</p>
+        <img src="images/detail/img_big.gif" class="shoppic">
+        <p class="intro">毎日が気持ちいい。関東マツダから始まるあなたの素敵なカーライフ！専門技術をもったマツダスタッフが丁寧にサービスいたします。皆様のご来店心からお待ちしております！</p>
+        <br class="clear" />
+        <h5 class="recommend_plan">おすすめ車検プランはコレ！</h5>
+        <h6 class="recommend_plan_name">あんしん車検</h6>
+        <table class="price" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="18%" class="label">種別</td>
+            <td width="20%" class="label">軽自動車</td>
+            <td width="20%" class="label">小型自動車<br />
+              (1000kg以下)</td>
+            <td width="21%" class="label">中型自動車<br />
+              (1001kg～1500kg)</td>
+            <td width="21%" class="label">大型自動車<br />
+              (1501kg～)</td>
+          </tr>
+          <tr>
+            <td class="label">費用合計<br />
+              最大割引後</td>
+            <td class="value">50,000円<br />
+              <span class="orange">45,000円</span></td>
+            <td class="value">50,000円<br />
+              <span class="orange">45,000円</span></td>
+            <td class="value">50,000円<br />
+              <span class="orange">45,000円</span></td>
+            <td class="value">50,000円<br />
+              <span class="orange">45,000円</span></td>
+          </tr>
+        </table>
+      </div>
+      <div class="otoku">
+        <h5 class="campaign_header">キャンペーン</h5>
+        <div class="campaign_box">
+          <h6 class="campaign_title">春の桜満開キャンペーン</h6>
+          <p class="campaign_desc">キャンペーン期間中に車検のお申込みをしていただいたお客様にガソリン10リットルサービスいたします。・・・</p>
+          <p class="campaign_period">期間：2008/03/15～2008/04/14</p>
+        </div>
+        <h5 class="service_header">サービス</h5>
+        <div class="service_box">
+          <ul class="service_title">
+            <li>ティッシュプレゼント</li>
+            <li>エコバッグプレゼント</li>
+          </ul>
+        </div>
+      </div>
+      <br class="clear" />
+      <div class="shopdata">
+        <p class="shopdata">住所：東京都渋谷区渋谷1-1-1<br />
+          アクセス：渋谷駅ハチ公口から道玄坂方面へ車で5分</p>
+        <p class="btn_detail"><a href="./detail.html">詳細はこちら</a></p>
+        <br class="clear" />
+      </div>
+    </div>
+    <br class="clear" />
+    <br class="clear" />
+    <br class="clear" />
+    <br class="clear" />
+    <div id="page_bottom"><a href="#">&lt;&lt; 前の5件</a> <a href="#">1</a> / 2 / <a href="#">3</a> <a href="#">次の5件 &gt;&gt;</a></div>
+    <p id="pagetop"><a href="#ALL" onclick="backToTop(); return false" onkeypress="backToTop(); return false">↑ページのトップへ</a></p>
+    <br class="clear" />
+  </div>
+  <div id="footer">
+    <ul id="footer_menu">      <li><a href="./useinfo.html">利用案内</a></li>
+      <li><a href="#">掲載依頼</a></li>
+      <li><a href="#">利用規約</a></li>
+      <li><a href="#">運営会社</a></li>
+      <li><a href="#">プライバシーポリシー</a></li>
+      <li id="menu_end_footer"><a href="#">サイトマップ</a></li>
+    </ul>
+    <p id="copyright">Copyright(C)2008 Shakenavi All Rights Reserved.</p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+body,h1,h2,h3,h4,h5,h6,p,pre,blockquote,ul,ol,dl,dd,li{margin:0;padding:0;list-style:none;}
+body{line-height:150%;font-size:78%;color:#333333; font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";}
+
+a{color:#054f9a;}
+a:hover{color:#009d55;text-decoration:none;}
+
+div#content{width:900px;margin-left:auto;margin-right:auto;}
+div#content_left{width:200px;float:left;margin-top:10px;}
+div#content_right{width:700px;float:right;margin-top:10px;}
+
+/* header :) */
+
+div#header table{width:100%;border:0;border-collapse:collapse;}
+div#header table tr.header td{background:#3b85cf;color:white;font-weight:bold;padding:5px;}
+
+a#btn_logout{border:3px solid #0059a5;background:white;padding:5px;color:#0059a5;font-weight:bold;text-decoration:none;float:right;}
+a:hover#btn_logout{background:#0059a5;color:white;}
+
+div#header table tr.statusbar td{background:#0059a5;color:white;}
+
+div#header table tr.statusbar td strong{float:left;padding:3px;padding-left:5px;padding-right:20px;background:#004076;}
+div#header table tr.statusbar td dl{float:left;}
+div#header table tr.statusbar td dt{float:left;padding:3px;padding-left:10px;border-left:1px solid #437cad;}
+div#header table tr.statusbar td dd{float:left;padding:3px;font-weight:bold;margin-right:10px;}
+
+/* stat label */
+
+.active{color:#66ccff;}
+.deactive{color:#cccccc;}
+.open{color:#66ccff;}
+.notopen{color:#cccccc;}
+.incomplete{color:#ff9999;}
+.use{color:#ccff99;}
+.notuse{color:#cccccc;}
+.forcestop{color:#000000;}
+.judge{color:#ff9999;}
+.nojudge{color:#FF9900;}
+
+
+div#header table tr.mainmenu td{background:#f3f3f3;border-bottom:1px solid #e0e0e0;padding:10px;}
+
+div#header table tr.mainmenu td ul li{float:left;}
+div#header table tr.mainmenu td ul li a{display:block;width:100px;text-align:center;padding:9px;border:1px solid #cccccc;margin-right:10px;background:white;color:#054f9a;font-weight:bold;}
+div#header table tr.mainmenu td ul li a:hover{background:#d6f1ff;}
+
+div#header table tr.mainmenu td ul li.act a{display:block;width:100px;text-align:center;padding:9px;border:1px solid white;margin-right:10px;background: url(/img/client/client_mainmenu_act.gif) repeat-x;color:white;font-weight:bold;}
+
+
+
+div#footer{color:#666666;background:#eeeeee;border:1px solid #cccccc;border-left:none;border-right:none;padding:10px;text-align:center;margin-top:30px;font-weight:bold;}
+
+
+/* for TUKAI MAWASHI */
+
+.cell_right{text-align:right;}
+.kuzure_stopper{width:920px;}
+
+.centering{text-align:center;}
+
+h1{color:#FFFFFF;background:#003399;font-size:10px;padding:5px;width:180px;}
+
+h2{color:#003366;border-left:5px solid #003366;padding-left:8px;margin:10px 0;margin-left:15px;font-size:14px;}
+h3{color:#003366;font-size:12px;}
+
+ul.mainmenu{width:178px;padding:5px;border:1px solid #cccccc;margin:10px 0;}
+ul.mainmenu li a{background:#f6f6f6;border:1px solid #cccccc;padding:5px;margin:5px;display:block;width:155px;text-decoration:none;}
+ul.mainmenu li a:hover{background:#009d55;border:1px solid #009d55;color:white;}
+ul.mainmenu li.act a{background:#054f9a;color:white;border:1px solid #1c344d;}
+
+ul.mainmenu li.act ul.submenu{margin-bottom:15px;}
+ul.mainmenu li.act ul.submenu li a{background:#f8f8f8;border:1px solid #cccccc;text-indent:10px;color:#1c344d;margin-left:20px;width:140px;}
+ul.mainmenu li.act ul.submenu li a:hover{background:#009d55;border:1px solid #009d55;color:white;text-indent:10px;margin-left:20px;width:140px;}
+
+ul.mainmenu li.act ul.submenu li.act a{background:#b2c9df;border:1px solid #6e9bc9;text-indent:10px;color:#1c344d;margin-left:20px;width:140px;}
+
+p.description{margin-left:15px;margin-bottom:10px;color:#003366;}
+
+div.content_sub{margin:0 30px;}
+
+table.common{width:100%;border:1px solid #CCCCCC;margin:15px 0;border-collapse:collapse;}
+table.common td{border:1px solid #CCCCCC;}
+
+td.cell_title{background:#dedede;font-weight:bold;}
+td.cell_label{border:1px solid #d9ebee;background:#eeeeee;border:1px solid #EEEEEE;color:#000000;padding:5px;}
+td.cell_value{padding:5px;}
+td.cell_small_value{padding:3px;text-align:center;}
+td.cell_submit{text-align:center;padding:10px;}
+td.cell_list_label{background:#bbbbbb;padding:3px;}
+
+td.introcell_title{background:#eeeeee; font-weight:bold;padding:3px;}
+td.introcell_label{background:#f8f8f8;padding:3px;}
+
+p.noimage{width:350px; height:250px; border:1px solid #CCCCCC;}
+p.noimage2{width:230px; height:160px; border:1px solid #CCCCCC;}
+
+input.submit{padding:5px;cursor:pointer;width:100px;}
+
+p.hight{line-height:220%;}
+
+div.messagebox{border:1px solid green; color:green; padding:10px; margin-top:5px;}
+div.messagebox_error{border:1px solid red; color:red; padding:10px; margin-top:5px;}
+
+div.mainmenu_link{float:right; margin-top:2px;}
+
+/* ---------------------------------------------------------------------------- */
+
+ol.flow li{border:1px solid #cccccc; padding:10px;margin:10px 0;}
+ol.flow li img{margin:10px 0;}
+
+ol.flow li ul li{background:#D7F2FF;border:1px solid #B5E7FF;}
+ol.flow li ul li strong{color:#003366;}
+
+ol.flow li ul li ul li{background:#F4FCFF;border:1px solid #B5E7FF;}
+
+strong.highlight{color:#003399;}
+strong.warning{color:red;}
+
+p#good_news{color:#CC6600;background:#FEF9D3;padding:10px; border:1px solid #FDE288;}
+
+/* ---------------------------------------------------------------------------- */
+
+/* top page */
+
+ul#caution{border:1px solid #bababa;background:#f5f5f5;padding:10px;margin-top:10px;margin-bottom:30px;}
+ul#caution strong{color:red;}
+
+ul#info{border:1px solid #bababa;background:#f5f5f5;padding:10px;margin-top:10px;margin-bottom:30px;}
+
+div#copy{border:1px solid #bababa;background:#f5f5f5;padding:0px 10px;margin-top:10px;margin-bottom:30px;}
+
+/* intro */
+table.pic2{width:240px; border:1px solid #CCCCCC; float:left; margin-right:10px;}
+table.pic2 td{border:none;padding:10px;}
+
+
+p.attention{border:1px solid red;padding:10px;margin:10px 0;color:red;}

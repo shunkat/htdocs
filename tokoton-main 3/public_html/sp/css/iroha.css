@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul#breadcrumb{
+	padding:0 5px;
+	margin-top:5px;
+}
+
+ul#breadcrumb li{
+	float:left;
+	margin-right:5px;
+	list-style:none;
+	text-align:center;
+}
+
+#now_step{
+	margin:10px;
+}
+
+.iroha h3{
+	background: url(../images/iroha/h3_iroha.gif) no-repeat;
+	height:50px;
+	line-height:50px;
+	padding-left:40px;
+	font-size:16px;
+}
+
+.iroha p{
+	padding:10px;
+	line-height:20px;
+	
+}
+
+.table_in{
+	width:90%;
+	margin:0 auto;
+}
+
+.table_in td{
+	vertical-align:top;
+	padding-bottom:3px;
+}
+
+
+#step_blog{
+	width:100%;
+	margin:0 auto;
+}
+
+a.a_step{
+	display:block;
+	color:#000;
+}
+
+.table_step tr{
+	border-bottom:1px solid #c4c4c4;
+	height:50px;
+}
+
+.table_step td{
+	vertical-align:middle;
+	font-size:14px;
+	padding:10px;
+}
+
+
+/*車検費用テーブル*/
+
+#price_table{
+	
+	width:80%;
+	margin:0 auto;
+	font-size:14px;
+}
+
+#price_table h4{
+	margin-bottom:5px;
+	margin-top:5px;
+	
+}
+
+#price_table table{
+	
+	margin:0 auto;
+}
+
+#price_table td{
+	padding:5px;
+	width:100px;
+	border:1px solid #000;
+	vertical-align:middle;
+	
+}
+
+#price_table th{
+	padding:5px;
+	width:300px;
+	border:1px solid #000;
+	vertical-align:middle;
+	background-color:#9CF;
+	text-align:left;
+	
+}
+
+
+/*ページナビ*/
+
+#pagenavi{
+}
+.side{  
+	
+	padding: 10px;
+	
+	background-color: #0C6;
+	
+	border: solid 1px #666666;
+	
+	box-shadow:0px 0px 3px #666666;
+	color:#000;
+}
+
+.side:hover{  
+	
+	background-color: #ff9956;
+	
+	color: #e2e2e2;
+}
+
+
+#search_button{
+	margin:10px auto;
+}

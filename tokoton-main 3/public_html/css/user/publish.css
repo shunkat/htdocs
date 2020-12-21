@@ -1,0 +1,152 @@
+h2#publish{background:url(file:///C|/Users/3002rs/Documents/%E5%8F%A4%E8%B3%80/%E3%81%A8%E3%81%93%E3%81%A8%E3%82%93%E8%BB%8A%E6%A4%9C%E3%83%8A%E3%83%93/20150930%E6%8E%B2%E8%BC%89%E4%BE%9D%E9%A0%BC/public_html/css/images/publish/header_pagetitle.gif) no-repeat center center; width:97px; height:20px; text-indent:-9999px; overflow:hidden; padding:20px 0;}
+span.small{font-size:90%;}
+p.desc{padding:0 10px 10px 0;}
+p.desc2{padding:0 10px 10px 20px;}
+div#publish_box{width:670px; margin-left:auto; margin-right:auto; padding-bottom:40px;}
+
+div#messagebox_error{border:1px solid #CC0000; padding:10px; color:#CC0000;text-align:center; margin-left:20px;}
+div#messagebox_error p{padding-bottom:10px; font-weight:bold;}
+
+h3#form_title{
+	padding: 10px;
+	font-size: 16px;
+	text-align: left;
+	color:white;
+	background:#6ec032;
+	padding:10px;
+	border:1px solid #5ba823;
+	margin-bottom:10px;
+	margin-left:20px;
+}
+h3#fax_title{
+	padding:10px;
+	font-size: 16px;
+	text-align: left;
+	color:white;
+	background:#6ec032;
+	padding:10px;
+	border:1px solid #5ba823;
+	margin-bottom:10px;
+	margin-left:20px;
+}
+
+table{width:650px; border-top:1px solid #bbbbbb; border-left:1px solid #bbbbbb; margin-bottom:10px; margin-left:20px;}
+table td{padding:5px; border-right:1px solid #bbbbbb; border-bottom:1px solid #bbbbbb;}
+td.left{background:#f0f0f0; width:179px;}
+td#btn{text-align:center;}
+
+input#btn_check{
+	margin:5px 0;
+	}
+
+div#btn_layout{text-align:center;}
+
+p#content{
+	border: #b6df85 2px solid;
+	padding: 10px;
+	margin-left: 20px;
+	width: 260px;
+	float: left;
+	}
+img#arrow{margin:7px 15px 0 15px; float:left;}
+p#fax{
+	}
+	
+	
+p#privacy{padding:7px; font-size:90%; border:1px solid #CCCCCC; width:630px; margin-left:20px; margin-top:50px;}
+
+/* 入力内容の確認 */
+h2#publish_confirm{background:url(file:///C|/Users/3002rs/Documents/%E5%8F%A4%E8%B3%80/%E3%81%A8%E3%81%93%E3%81%A8%E3%82%93%E8%BB%8A%E6%A4%9C%E3%83%8A%E3%83%93/20150930%E6%8E%B2%E8%BC%89%E4%BE%9D%E9%A0%BC/public_html/css/images/publish/header_pagetitle_confirm.gif) no-repeat center center; width:164px; height:20px; text-indent:-9999px; overflow:hidden; padding:20px 0;}
+h3#form_title_confirm{padding:25px 0 10px 0; background:url(file:///C|/Users/3002rs/Documents/%E5%8F%A4%E8%B3%80/%E3%81%A8%E3%81%93%E3%81%A8%E3%82%93%E8%BB%8A%E6%A4%9C%E3%83%8A%E3%83%93/20150930%E6%8E%B2%E8%BC%89%E4%BE%9D%E9%A0%BC/public_html/css/images/publish/confirm_title.gif) no-repeat 0 25px; width:132px; height:16px; text-indent:-9999px; overflow:hidden;}
+
+/* 送信完了 */
+h3#form_title_fin{padding:25px 0 10px 0; background:url(file:///C|/Users/3002rs/Documents/%E5%8F%A4%E8%B3%80/%E3%81%A8%E3%81%93%E3%81%A8%E3%82%93%E8%BB%8A%E6%A4%9C%E3%83%8A%E3%83%93/20150930%E6%8E%B2%E8%BC%89%E4%BE%9D%E9%A0%BC/public_html/css/images/publish/fin_title.gif) no-repeat 0 25px; width:84px; height:16px; text-indent:-9999px; overflow:hidden;}
+p#fin_box{text-align:center; padding:20px; border:1px solid #bbbbbb; margin-left:20px; margin-top:10px;}
+div#fin_box h3{margin:0;margin-bottom:10px;}
+
+p#top{text-align:center; padding-top:30px;}
+p#top a{color:#006600;}
+p#top a:hover{color:#009900; text-decoration:none;}
+
+/* エラー */
+input#back{width:150px; margin-top:15px; margin-left:270px;}
+
+
+/*===========================================================
+個人情報の取り扱いについて
+=========================================================== */
+.clear{
+	clear: both;
+}
+#privacy img{
+	border: none;
+}
+#privacy{
+	padding: 10px;
+	border: 1px solid #CCC;
+	background: #F2F2F2;
+}
+#privacy h3{
+	font-size: 16px;
+	text-align: left;
+}
+#privacy_box_left{
+	float: left;
+	vertical-align: middle;
+	padding-top: 10px;
+	text-align: left;
+}
+#privacy_box_right{
+	float: right;
+	background: #FFF;
+	text-align: left;
+}
+#privacy_box_right{
+	width: 240px;
+	padding: 0px 1px;
+	border: 1px solid #CCC;
+}
+/*IE6*/
+*html #privacy_box_right{
+	margin: 0px 0px 15px 0px;
+}
+/*IE7*/
+*+html #privacy_box_right{
+	margin: 0px 0px 15px 0px;
+}
+#privacy_box_right table{
+	width: 238px;
+	margin: 0;
+}
+#privacy_box_right table,
+#privacy_box_right tr,
+#privacy_box_right td,
+#privacy_box_right th{
+	border: none;
+	text-align: left;
+	vertical-align: middle;
+}
+#privacy_text{
+	margin-top: 10px;
+	padding: 10px;
+	background: #FFF;
+	border: 1px solid #CCC;
+	height: 100px;
+	overflow: auto;
+}
+#privacy_text ol{
+	margin-top: 0px;
+}
+#privacy_text li{
+					list-style-type: decimal;
+					margin-left: 20px;
+				}
+#privacy_text li,
+#privacy_text p{
+	font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+}
+.publish_h2{
+	margin: 20px 0 40px;
+}

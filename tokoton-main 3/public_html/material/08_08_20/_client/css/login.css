@@ -1,0 +1,43 @@
+body,form,fieldset{margin:0; padding:0;}
+fieldset{border:none;}
+h1,h2,h3,h4,h5,h6,p,pre,blockquote,ul,ol,dl,dd{margin:0; padding:0;}
+
+body{font-size:75%;color:#666666; line-height:140%;}
+
+div#container{background:#FFFFFF;}
+
+div#header{height:65px; background:#2498de; margin-bottom:38px;}
+
+div#content{width:746px;}
+
+div#content table{text-align:left; border:1px solid #abcdee; width:358px; vertical-align:middle; border-bottom:none; margin-left:auto; margin-right:auto;}
+
+td.td1{height:22px; background:#dcedfe; padding-left:9px; border-bottom:1px solid #abcdee;}
+td.td2{width:221px; height:52px; background:#f5fbff; padding-left:9px; border-bottom:1px solid #abcdee;}
+td.td3{width:139px; height:52px; background:#f5fbff; border-bottom:1px solid #abcdee;}
+input.field{height:16px; width:120px;}
+td.td4{height:52px; border-bottom:1px solid #abcdee;}
+p#login_btn a{background:url(../images/client_login_btn.gif) no-repeat; width:96px; height:26px; text-indent:-9999px; overflow:hidden; display:block; margin-left:auto; margin-right:auto; margin-top:3px;}
+
+p#atention{margin-top:15px; margin-left:auto; margin-right:auto;}
+span.kome{color:#ec0000;}
+
+div#footer{height:18px; background:#f0f0f0; text-align:right; margin-top:110px; padding-right:10px; padding-top:6px;}
+
+/* reminder only */
+
+td.td5{height:46px; background:#dcedfe; padding-left:9px; border-bottom:1px solid #abcdee;}
+td.td6{width:99px; height:52px; background:#f5fbff; padding-left:9px; border-bottom:1px solid #abcdee; border-right:1px solid #abcdee;}
+td.td7{width:340px; height:52px; background:#f5fbff; padding-left:9px; border-bottom:1px solid #abcdee;}
+td.td7 input{height:16px; width:180px; margin-right:10px;}
+td.td8{width:349px; height:52px; background:#f5fbff; border-bottom:1px solid #abcdee;}
+td.td8 input{margin-right:5px; margin-left:9px;}
+p#reminder_btn{background:url(../images/client_reminder_btn.gif) no-repeat; width:96px; height:26px; text-indent:-9999px; overflow:hidden; display:block; margin-left:auto; margin-right:auto; margin-top:3px;}
+p#back{margin-top:20px; float:left;color:#006fc4; margin-left:80px; display:inline; text-align:left;}
+p#back a{color:#006fc4;}
+p#back a:hover{color:#669900;}
+
+/* reminder after */
+
+div.messagebox{width:458px; background:#dcedfe; border:1px solid #abcdee; padding:30px 0;margin-bottom:20px;}
+span.attention{color:#CC0000; font-weight:bold;}

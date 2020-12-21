@@ -1,0 +1,38 @@
+h2#tokoton24{padding:20px 0;}
+
+
+p#desc{margin-top:15px;float:left;}
+
+div#price_membership{margin-top:15px;padding-right:20px;width:172px;height:73px;float:right;}
+
+h4#header_coverlist{padding:20px 0 10px 0}
+
+h5{color:#408fdc;}
+
+div#label_freeformember{padding:20px 0;text-align:center;border-bottom:1px solid #EEEEEE;margin-bottom:15px;}
+
+ul.coverlist{padding-bottom:20px;color:#408fdc;}
+ul.coverlist_left{padding-bottom:5px;color:#408fdc;}
+
+div.cover_left{float:left;width:180px;}
+div.cover_right{float:right;width:200px;}
+div.cover_center{float:left;width:180px;}
+
+div.cover_left a{color:#408fdc;}
+div.cover_left a:hover{color:#FF6600; text-decoration:none;}
+div.cover_right a{color:#408fdc;}
+div.cover_right a:hover{color:#FF6600; text-decoration:none;}
+div.cover_center a{color:#408fdc;}
+div.cover_center a:hover{color:#FF6600; text-decoration:none;}
+
+ul#attention{padding-top:20px;font-size:80%;}
+ul#attention ul{margin-left:25px;margin-top:10px;}
+ul#attention ul li{list-style:disc;}
+
+h4#header_userflow{padding-bottom:10px;}
+ul#userflow li{display:inline;}
+ul#userflow li img{display:block;}
+
+
+div#content_left{float:left;width:580px;padding-left:32px;}
+div#content_right{float:right;width:270px;padding-top:15px;}

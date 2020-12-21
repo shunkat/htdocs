@@ -1,0 +1,539 @@
+/* headerをレスポンシブ対応させる */
+#header{
+  width:100%;
+  min-width:2px;
+}
+
+/* 上の画像とタイトルボックスのcss */
+
+  .keisaiTopWrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .keisaiTop {
+    position: relative;
+    border-radius: 59px;
+    height: 50%;
+    width: 100%;
+  }
+  .topNavBox {
+    position: relative;
+    background: #ffffff;
+    box-shadow: 17px 13px 48px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    min-height: 22rem;
+    height: auto;
+    width: 65%;
+    left: 20%;
+    top: -208px;
+    border-radius: 24px;
+  }
+  .topNavTitle {
+    position: relative;
+    max-height: min-content;
+    width: 100%;
+    left: 54px;
+    top: 36px;
+    padding: 1.5rem;
+  }
+  .title {
+    position: relative;
+    width: 80%;
+    top: 0px;
+    left: 12px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+  
+    margin-bottom: 3rem;
+  
+    color: #011e09;
+  
+    mix-blend-mode: normal;
+  }
+  .titleExplain {
+    height: auto;
+    width: 80%;
+    top: 144px;
+    left: 36px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+  
+    color: #011e09;
+  
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  /* 全体に関するcss */
+  .contentWrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .brown {
+    color: brown;
+  }
+  .divideBar {
+    position: relative;
+    left: 47%;
+    right: 47%;
+    width: 6%;
+    height: 0px;
+    border: 1px solid #7d7b7b;
+    margin-bottom: 48px;
+  }
+  .content {
+    position: relative;
+    top: -9rem;
+    /* ここはふわっと指せるアニメーションの基準点がmarginだとずれてしまうことからとりあえずpaddingにしています */
+    padding-top:10rem;
+  }
+  .contentTitle {
+    position: relative;
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color: #324025;
+    line-height: 6rem;
+    height:fit-content
+  }
+  .contentTitle1, .contentTitle3{
+    height:5rem;
+  }
+  .contentTitle2{
+    height:10rem;
+  }
+  .contentExplain {
+    margin: 48px 84px 48px 84px;
+    position: relative;
+    max-width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 63px;
+    color: #4d5843;
+    text-align: center;
+  }
+  /* 最短一時間で集客開始の部分に関するCSS */
+  .form {
+    position: absolute;
+    max-height: 18rem;
+    /*margin-left: 36rem;*/
+    margin-left: 35%;
+    margin-top: 30px;
+  }
+  .register {
+    position: relative;
+    max-height: 20rem;
+    margin-left: 8rem;
+  }
+  .circle {
+    position: relative;
+    width: 71px;
+    height: 69px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: center;
+    margin-right: 36px;
+    margin-left: 24px;
+    border-color: #7d7b7b;
+    color: #7d7b7b;
+  }
+  
+  .process1 {
+    display: flex;
+    margin-top: 24px;
+    max-height: 5rem;
+  }
+  .process2 {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .figureBg {
+    background-color: #f2f1f1;
+    padding: 3%;
+    margin: auto;
+    margin-top: 3rem;
+    width: 90%;
+    height: 25rem;
+  }
+  
+  .sugaya1 {
+    display: flex;
+    height: 100px;
+  }
+  
+  .thinbottom {
+    position: relative;
+    width: 30%;
+  }
+  .thinbottom::before {
+    position: relative;
+    content: "";
+    display: block;
+    top: 0px;
+    left: 58px;
+    width: 2px;
+    height: 156px;
+    background: #666;
+  }
+  .thinbottom::after {
+    position: relative;
+    content: "";
+    display: block;
+    top: -20px;
+    left: 47px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-color: transparent transparent #666 #666;
+    transform: rotate(-45deg);
+    margin-bottom: -18px;
+  }
+  
+  /* 掲載するメリットに関するcss */
+  .contentExplain1 {
+    border: 0;
+    margin: 0;
+    margin-top: 4rem;
+  }
+  /* スマホのときは折り返す、そうでなければ折り返さないという指定 */
+  .meritWrapper1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 0;
+  }
+  @media screen and (max-width:1023px){
+    .meritWrapper1{
+      flex-wrap: wrap;
+    }
+  }
+  .meritWrapper2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 0;
+  }
+  @media screen and (max-width:1023px){
+    .meritWrapper2{
+      flex-wrap: wrap;
+    }
+  }
+
+  .meritBox {
+    border: solid #7d7b7b;
+    border-radius: 1.5rem;
+    margin: 1rem 2rem 1rem 2rem;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  /* ここをいじることで横に箱が何個入るかを変えることができます。 */
+    flex-basis: 90%;
+  
+  }
+  
+  .meritTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 2rem;
+  }
+  .meritContent {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .greenWord {
+    color: green;
+  }
+  
+  /* 上部のボタンに関するCSS */
+  .buttonsWrap{
+    z-index: 100;
+    position:sticky;
+    top:0rem;
+    padding-top: 2rem;
+  }
+  .buttons{
+    position:relative;
+    right:0px;
+    padding-left:65%;
+    padding-right:0;
+  }
+  .upperButton {
+    position: relative;
+    display: inline-block;
+    padding: 1.2em 2em;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    color: white;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    flex-basis: 5rem;
+    border-radius: 12px;
+  }
+  .informationWantButton::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(135deg, #EAA04B, #e6b93e);
+    border-radius: 12px;
+    -webkit-transition: box-shadow .5s ease, -webkit-transform .2s ease;
+    transition: box-shadow .5s ease, -webkit-transform .2s ease;
+    transition: box-shadow .5s ease, transform .2s ease;
+    transition: box-shadow .5s ease, transform .2s ease, -webkit-transform .2s ease;
+    will-change: transform;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0)) translateZ(var(--tz, -12px));
+            transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0)) translateZ(var(--tz, -12px));
+  }
+
+  .askButton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(135deg, #039E04, #53BF0B);
+    border-radius: 12px;
+    -webkit-transition: box-shadow .5s ease, -webkit-transform .2s ease;
+    transition: box-shadow .5s ease, -webkit-transform .2s ease;
+    transition: box-shadow .5s ease, transform .2s ease;
+    transition: box-shadow .5s ease, transform .2s ease, -webkit-transform .2s ease;
+    will-change: transform;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0)) translateZ(var(--tz, -12px));
+            transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0)) translateZ(var(--tz, -12px));
+  }
+  .upperButton:hover::before {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  .upperButton::after {
+    display: inline-block;
+    content: attr(data-title);
+    -webkit-transition: -webkit-transform .2s ease;
+    transition: -webkit-transform .2s ease;
+    transition: transform .2s ease;
+    transition: transform .2s ease, -webkit-transform .2s ease;
+    font-weight: bold;
+    letter-spacing: .01em;
+    will-change: transform;
+    -webkit-transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0));
+            transform: translateY(var(--ty, 0)) rotateX(var(--rx, 0)) rotateY(var(--ry, 0));
+  }
+
+  
+  
+  /* スクロールしたらふわっと出る関係のcss */
+  .scrollAnimation{
+    opacity: 0;
+    transition: all .8s ease;
+  }
+  .scrollAnimation.show{
+    opacity: 1;
+    transform: none;
+  }
+  .appearFromBottom{
+    transform: translate(0, 100px);
+  }
+
+  @media screen and (max-width: 1145px) {
+    /* 1145px以下に適用されるCSS */
+    .contentTitle1 {
+      height: 10rem;
+    }
+    .meritWrapper {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    /* 1000px以下に適用されるCSS */
+    .title{
+      line-height: 3rem;
+    }
+    .contentTitle2 {
+      height: 15rem;
+    }
+  }
+  
+  @media screen and (max-width: 895px) {
+    /* 895px以下に適用されるCSS */
+    .topNavBox {
+      top: -100px;
+    }
+    .content{
+      padding-top: 5rem;
+    }
+    .topNavTitle {
+      left: 15px;
+      top: 15px;
+    }
+    .title {
+      font-size: 30px;
+    }
+    .titleExplain {
+      font-size: 18px;
+    }
+    .contentTitle {
+      font-size: 45px;
+    }
+    .contentExplain {
+      font-size: 25px;
+    }
+  }
+
+  @media screen and (max-width: 666px) {
+    /* 666px以下に適用されるCSS */
+    .meritTitle {
+      font-size: 3rem;
+    }
+    .contentTitle{
+      font-size:2.5rem;
+    }
+    .contentExplain {
+      margin: 48px 15px;
+      font-size:1.5rem;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    /* 400px以下に適用されるCSS */
+    .keisaiTop {
+    padding-top: 15%;
+    }
+    .buttonsWrap{
+      position:fixed;
+      top:80%;
+      width:80%;
+      
+    }
+    .buttons{
+      margin-top:0rem;
+      left:12%;
+      margin-bottom:5%;
+    }
+    .upperButton{
+      font-size: 8px;
+    }
+    .contentExplain{
+      line-height:1.5;
+    }
+    .figureBg{line-height:63px;}
+    .keisaiTop{
+      border-radius: 0.5rem;
+      position:relative;
+      top:auto;
+      left:auto;
+    }
+    .title{
+      font-size:1.5rem;
+      margin-bottom:2px;
+      line-height:1;
+      left:0;
+    }
+    .titleExplain{
+      font-size:1rem;
+      line-height:2;
+      margin-top:1rem;
+
+    }
+    .topNavBox{
+      padding:1px;
+      height:fit-content;
+      top:0;
+      width: auto;
+      box-shadow: none;
+      left:0%;
+      padding-left: 4%;
+    }
+    .sp-hide{
+      display:none;
+    }
+    .divideBar{
+      display:none;
+    }
+    .content{
+      padding-left:4%;
+      padding-top:0;
+    }
+    .contentExplain{
+      text-align: left;
+      margin-left:0;
+      font-size:1rem;
+    }
+    .contentTitle{
+      font-size:1.5rem;
+      line-height: 1;
+      height:fit-content;
+      text-align:left;
+    }
+    .content1{
+      margin-top: 7rem;
+    }
+
+    
+    .meritBox{
+      width: 80%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .meritContent{
+      font-size:1rem;
+    }
+    .meritTitle{
+      font-size:1.5rem;
+    }
+    ul#submenu{
+      width:100%;
+      padding-inline-start: 0;
+    }
+    #mainmenu li a{
+      font-size: 0.3rem;
+    }
+  }
+
+  /* 以下はとりあえず今までのヘッダーを小さくするようです。もしレスポンシブ対応がされたらそのときに消します */
+  body div#header{
+width:100%;
+min-width:24px;
+  }
+  ul#mainmenu{
+    min-width:100%;
+    width:100%;
+  }

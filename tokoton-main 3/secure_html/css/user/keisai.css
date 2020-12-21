@@ -1,0 +1,246 @@
+h2#keisai{padding:20px 0;}
+
+div#keisai_box{width:920px; margin-left:auto; margin-right:auto; color:#333333;}
+
+div#content_left{float:left; width:593px; padding-left:35px; padding-top:13px; padding-bottom:30px;}
+div#content_right{float:right; width:243px; padding-top:13px; padding-bottom:30px;padding-right:25px;}
+
+p#desc{width:588px; padding-left:5px; padding-bottom:30px;}
+h5#keisai_title1{padding-bottom:15px;}
+
+
+div#content_left dt{width:575px; padding:10px 9px; color:#e22; font-size:140%; font-weight:bold; background:#dcdcea; border:1px solid #14126f; border-bottom:none;}
+div#content_left dd{width:575px; padding:10px 9px; border:1px solid #14126f; border-top:none; margin-bottom:15px;}
+div#content_left dd strong{color:#14126f;}
+div#content_left dd span{color:#62ba20; font-weight:bold;}
+p.imgtitle{float:left; text-align:center; padding:45px 15px 0 15px;}
+div#content_left dd img.border{float:left; margin-top:15px; border:1px solid #dddddd;}
+div#content_left dd p.knowledge2_dd{float:left; width:365px;}
+div#content_left dd p.knowledge2_dd1{float:left; width:425px;}
+div#content_left dd p.knowledge2_dd2{float:left; width:400px;}
+div#content_left dd img.knowledge2_img{float:right; margin:0 10px 10px; border:none;}
+div#content_left dd#present_de_otoku{text-align:center;padding:0px 9px 10px 9px;}
+div#content_left dd#present_de_otoku p{text-align:left;padding:10px 0px 5px 25px;}
+div#content_left dd#present_de_otoku img#btn_presentsearch{margin-top:10px;}
+
+div#content_right ul li{margin-bottom:4px;}
+
+h5#onesbrain{padding-top:20px;}
+div#onesbrain_box{width:222px; padding:10px 8px; background:#ffefd8; border:1px solid #d19c8e; border-top:none;}
+div#onesbrain_box dt{color:#a22f10; font-weight:bold; padding-bottom:10px;}
+
+ul.exsample{width:490px;background:#FFCC00;padding:10px;border:1px solid #CC9900;height:85px;}
+ul.exsample li{display:block;width:150px;height:30px;line-height:30px;float:left;background:white;border:1px solid #CC9900;margin:5px;text-align:center;color:#FF6600;font-weight:bold;}
+
+
+
+/*これより下全て新しいやつ
+ @import url(https://use.fontawesome.com/releases/v5.3.1/css/all.css);
+.keisaiTop {
+    position: relative;
+    border-radius: 59px;
+    height: 50%;
+    width: 100%;
+  }
+  .topNavBox {
+    position: relative;
+    background: #ffffff;
+    box-shadow: 17px 13px 48px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    height: 288px;
+    width: 70%;
+    left: 300px;
+    top: -208px;
+    border-radius: 24px;
+  }
+  .topNavTitle {
+    position: relative;
+    height: 602px;
+    width: 100%;
+    left: 54px;
+    top: 36px;
+    border-radius: 59px;
+  }
+  .title {
+    width: 100%;
+    height: 116px;
+    top: 36px;
+    left: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #011e09;
+    mix-blend-mode: normal;
+  }
+  .titleExplain {
+    width: 100%;
+    height: 143px;
+    top: 144px;
+    left: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #011e09;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .brown {
+    color: brown;
+  }
+  .divideBar {
+    position: relative;
+    left: 47%;
+    right: 47%;
+    width: 6%;
+    height: 0px;
+    border: 1px solid rgb(150, 150, 150);
+    margin-bottom: 48px;
+  }
+  .contentTitle {
+    position: relative;
+    width: 100%;
+    left: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+  color: #324025;
+  }
+  .contentExplain {
+    margin: 48px 84px 48px 84px;
+    position: relative;
+    width: 100%;
+    height: 252px;
+    left: 48px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 63px;
+    color: #4d5843;
+  }
+  .circle {
+    position: relative;
+    width: 71px;
+    height: 69px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: center;
+    margin-right: 36px;
+    margin-left: 24px;
+    border-color: #7d7b7b;
+    color: #7d7b7b;
+  }
+  .process1 {
+    display: flex;
+    margin-top: 24px;
+  }
+  .process2 {
+    display: flex;
+    margin-bottom: 24px;
+  }
+  .figureBg {
+    background-color: #f2f1f1;
+    padding: 24px;
+    width: 80%;
+  }
+  .content3 {
+    margin-top: 360px;
+  }
+  ​
+  .thinbottom {
+    position: relative;
+  }
+  .thinbottom::before {
+    position: relative;
+    content: "";
+    display: block;
+    top: 0px;
+    left: 58px;
+    width: 2px;
+    height: 156px;
+    background: #666;
+  }
+  .thinbottom::after {
+    position: relative;
+    content: "";
+    display: block;
+    top: -20px;
+    left: 47px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-color: transparent transparent #666 #666;
+    transform: rotate(-45deg);
+    margin-bottom: -18px;
+  }
+  .meritWrapper {
+    display: flex;
+  }
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  .btn,
+  a.btn,
+  button.btn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #212529;
+    border-radius: 0.5rem;
+  }
+  a.btn--circle {
+    width: 140px;
+    height: 140px;
+    padding: 20px 0 0;
+    border-radius: 50%;
+    color: #fff;
+    background: #68eba3;
+    -webkit-box-shadow: 0 7px 0 #3be549;
+    box-shadow: 0 7px 0 #3be53b;
+  }
+  a.btn--circle i {
+    font-size: 150%;
+  }
+  .fa-position-bottom {
+    position: absolute;
+    bottom: 1rem;
+    left: calc(50% - 0.5rem);
+  }
+  a.btn--circle:hover {
+    -webkit-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+    color: #fff;
+    -webkit-box-shadow: 0 3px 0 #3be56e;
+    box-shadow: 0 3px 0 #3be5ac;
+  } */

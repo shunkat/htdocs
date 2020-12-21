@@ -1,0 +1,41 @@
+php_value session.auto_start  1
+#php_value include_path ".:/home/project/pj06/public_html/application/libraries/"
+RewriteEngine on
+
+RewriteBase /
+
+RewriteRule ^index.html$ / [R,L]
+
+#「/なし」⇒「/あり」へリダイレクト追加 2017/04/07 ST
+RewriteCond %{REQUEST_URI} /+[^\.]+$
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+#「/なし」⇒「/あり」へリダイレクト追加 2017/04/07 ED
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+RewriteRule  ^([^\.]+[^/])$ $1/ [R,L]
+
+
+AddType image/svg+xml .svg
+AddType image/svg+xml .svgz
+
+
+
+# CACHE media files for 30days
+<Files ~ ".(css|html|gif|jpe?g|png|ico|js|gz|otf|ttf|eot|woff)$">
+  Header set Cache-Control "max-age=2592000"
+</Files>
+
+SetOutputFilter DEFLATE
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png|ico)$ no-gzip dont-vary
+Header append Vary User-Agent env=!dont-vary
+
+
+Redirect permanent http://www.tokoton-navi.com/shop_detail/446/ http://www.tokoton-navi.com/shop_detail/446

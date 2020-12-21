@@ -1,0 +1,219 @@
+
+body{font-family:"ÇlÇr ÇoÉSÉVÉbÉN", Osaka, "ÉqÉâÉMÉmäpÉS Pro W3";}
+
+h2#detail{background:url(/img/user/detail/header_pagetitle.gif) no-repeat center center; width:96px; height:20px; text-indent:-9999px; overflow:hidden; padding:20px 0;float:left;}
+
+h3#shopname{background:url(/img/user/detail/header_shopname.gif) no-repeat; width:805px; height:41px; float:left; padding-left:10px; font-size:11pt; line-height:41px; color:#FFFFFF; margin-bottom:25px; margin-top:-10px;}
+
+/* IE6à»â∫*/
+* html h3#shopname{
+	margin-top: -10px;
+}
+/* IE7*/
+*+html h3#shopname{
+	margin-top: -10px;
+}
+
+h3#shopname strong{color:#FFFF00;}
+
+p#shopnumber{background:url(/img/user/detail/header_shopnumber.gif) no-repeat; width:105px; height:41px; font-size:10pt; line-height:41px; color:#FFFFFF; float:left; margin-bottom:25px; margin-top:-10px;}
+
+/* IE6à»â∫*/
+* html p#shopnumber{
+	margin-top: -10px;
+}
+/* IE7*/
+*+html p#shopnumber{
+	margin-top: -10px;
+}
+
+
+div#content_all{background:url(/img/user/detail/bg_white.gif) repeat-x bottom #ffeab9;}
+div#content_left{width:630px; float:left; padding-left:10px; padding-bottom:20px; background:#FFFFFF;}
+div#content_right{width:270px; float:right; padding:10px 0 0 10px;}
+div.right_contentbox{background:url(/img/user/detail/footer_contentsright.gif) no-repeat bottom; padding-bottom:4px; width:260px; margin-bottom:10px;}
+dl#contentdesc{width:240px; border-right:1px solid #ffaf23; border-left:1px solid #ffaf23; padding:9px 9px 6px 9px; background:#FFFFFF;}
+dl#contentdesc dd{padding:8px 0;}
+
+img.noimage{border:1px solid #bbbbbb;}
+img.noimage_c{border:1px solid #bbbbbb; margin-left:4px;}
+
+/* Jedit --> */ img#tokoton_logo{float:right;margin-top:20px;}
+
+/* è–âÓ */
+
+dl.pic_big{width:350px; float:left;}
+dl.pic_big dd{padding:10px 0;}
+/* Jedit --> */dl.pic_big dd pre{width:350px;white-space: -moz-pre-wrap;white-space: -pre-wrap;white-space: -o-pre-wrap;white-space: pre-wrap;word-wrap: break-word;font-size:95%; font-family:"ÇlÇr ÇoÉSÉVÉbÉN", Osaka, "ÉqÉâÉMÉmäpÉS Pro W3"}
+h5#introduction{color:red; font-size:105%; padding-bottom:7px;}
+
+dl.pic_small{width:230px; float:right; margin-right:10px; text-align:center;}
+dl.pic_small dd{padding-top:5px; padding-bottom:15px;}
+
+/* è–âÓnew */
+
+dl.pic1{width:300px; float:left;}
+dl.text{width:300px; float:left; padding-left:10px;}
+
+hr.shop{margin:0px; padding:0px;}
+
+h3#shopname2{padding-left:0px; font-size:16pt; color:#000; margin-top:5px; margin-bottom:5px;}
+h3#shopname3{padding-left:0px; font-size:11pt; color:#000; margin-top:5px;}
+h3#contents{padding-left:10px; font-size:11pt; color:#f70; margin-bottom:5px; padding-top:10px;}
+h3#contents2{padding-left:10px; font-size:11pt; color:#f70; margin-bottom:10px; padding-top:0px;}
+h4#shopinfo{padding-left:0px; font-size:9pt; line-height:20px; color:#000; margin-bottom:10px; margin-top:10px; font-weight:normal;}
+h4#shopinfo a{font-size:12px;}
+
+dl.pic2{width:160px; float:left; margin-right:10px; text-align:center;}
+dl.pic2 dd{padding-top:5px; padding-bottom:15px;}
+
+table.top td{padding-top:10px; padding-bottom:20px;}
+table.top dt{padding-top:15px;}
+
+
+/* ÉvÉâÉì */
+
+h4#plan{background:url(/img/user/detail/header_plan.gif) no-repeat; width:620px; height:36px; text-indent:-9999px; overflow:hidden; margin:-20px 0 10px 0;}
+ul#plan_navi{margin-left:10px; margin-bottom:40px;}
+ul#plan_navi li{float:left;}
+ul#plan_navi li a{padding-right:10px; margin-right:5px; background:url(/img/user/detail/plan_navi_separator.gif) no-repeat right; color:#0066cc;}
+ul#plan_navi li a:hover{text-decoration:none;}
+ul#plan_navi li#none a{background:none;}
+
+h5.plan_name{background:url(/img/user/detail/header_planname.gif) no-repeat; width:575px; height:31px; padding-left:25px; font-size:10pt; line-height:31px; color:#006307; margin-left:10px;}
+div.plan_detail{border:1px solid #c0ce9f; border-top:none; width:578px; padding:15px 10px 8px; margin-bottom:10px; margin-left:10px;}
+div.plan_desc{width:100%; padding-bottom:10px;}
+/* Jedit --> */div.plan_desc pre{width:100%;white-space: -moz-pre-wrap;white-space: -pre-wrap;white-space: -o-pre-wrap;white-space: pre-wrap;word-wrap: break-word;font-size:95%; font-family:"ÇlÇr ÇoÉSÉVÉbÉN", Osaka, "ÉqÉâÉMÉmäpÉS Pro W3";}
+
+h6.plan_detail_title{font-size:100%; color:#23901e; margin-bottom:10px;}
+table.plan_price{text-align:center; border-top:1px solid #cfcfcf; border-left:1px solid #cfcfcf;}
+table.plan_price td{padding:3px 6px; border-right:1px solid #cfcfcf; border-bottom:1px solid #cfcfcf;}
+table.plan_price td.price_title{background:#f3f3f3;}
+table.plan_price td.serviceprice{color:#FF9900; font-weight:bold;}
+
+p.plan_btn{padding-top:10px; margin-left:0px;}
+p.plan_btn a{background:url(/img/user/detail/mitsumori_bt.jpg) no-repeat; width:577px; height:100px; display:block; text-indent:-9999px; overflow:hidden;}
+p.plan_btn a:hover{background:url(/img/user/detail/mitsumori_bt_mo.jpg) no-repeat bottom; width:577px; height:100px;}
+/*
+p.plan_btn_jump{}
+p.plan_btn_jump a{background:url(/img/user/detail/button1.jpg) no-repeat; width:299px; height:79px; display:block; text-indent:-9999px; overflow:hidden;}
+p.plan_btn_jump a:hover{background:url(/img/user/detail/button1_mo.jpg) no-repeat bottom; width:299px; height:79px;}
+*/
+/* ìXï‹ÉfÅ[É^ */
+
+h4#shopdata{background:url(/img/user/detail/header_shopdata.gif) no-repeat; width:620px; height:38px; text-indent:-9999px; overflow:hidden; margin-top:30px; margin-bottom:15px;}
+ul#icon{margin-left:10px;}
+ul#icon li{float:left; padding-right:6px;}
+table#shopdata{margin-left:10px; border-top:1px solid #ddb1a8; border-left:1px solid #ddb1a8; width:598px; margin-top:20px;}
+table#shopdata td{padding:6px 0; border-right:1px solid #ddb1a8; border-bottom:1px solid #ddb1a8;}
+table#shopdata td.datatitle{text-align:center; background:#ffece8; width:106px;}
+table#shopdata td.value{padding:0 6px;}
+/* Jedit --> */table#shopdata td.value pre{width:350px;white-space: -moz-pre-wrap;white-space: -pre-wrap;white-space: -o-pre-wrap;white-space: pre-wrap;word-wrap: break-word;font-size:95%; font-family:"ÇlÇr ÇoÉSÉVÉbÉN", Osaka, "ÉqÉâÉMÉmäpÉS Pro W3";}
+
+ul#card li{float:left; padding:10px 8px 10px 0;}
+
+div#box_freedial{background:#ffdecf; padding:6px; margin:6px 0;}
+div#box_freedial strong{color:#CC0000;}
+
+/*Å@ìdòb */
+
+h4#shopdata_tel{background:url(/img/user/detail/header_shopdata.gif) no-repeat; width:620px; height:38px; text-indent:-9999px; overflow:hidden; margin-top:30px; margin-bottom:15px;}
+table#shopdata_tel{margin-left:10px; border-top:1px solid #ddb1a8; border-left:1px solid #ddb1a8; width:598px; margin-top:20px;}
+table#shopdata_tel td{padding:6px 0; border-right:1px solid #ddb1a8; border-bottom:1px solid #ddb1a8;}
+table#shopdata_tel td.datatitle{text-align:center; background:#ffece8; width:106px;}
+table#shopdata_tel td.value{padding:0 6px;}
+/* Jedit --> */table#shopdata_tel td.value pre{width:350px;white-space: -moz-pre-wrap;white-space: -pre-wrap;white-space: -o-pre-wrap;white-space: pre-wrap;word-wrap: break-word;font-size:95%; font-family:"ÇlÇr ÇoÉSÉVÉbÉN", Osaka, "ÉqÉâÉMÉmäpÉS Pro W3";}
+
+ul#card li{float:left; padding:10px 8px 10px 0;}
+
+div#box_freedial{background:#ffdecf; padding:6px; margin:6px 0;}
+div#box_freedial strong{color:#CC0000;}
+
+
+/* ÉNÅ[É|Éì */
+
+h4#coupon{background:url(/img/user/detail/header_coupon.gif) no-repeat; width:260px; height:31px; text-indent:-9999px; overflow:hidden;}
+
+
+/* ÉLÉÉÉìÉyÅ[Éì */
+
+h4#campaign{background:url(/img/user/detail/header_campaign.gif) no-repeat; width:260px; height:31px; text-indent:-9999px; overflow:hidden;}
+h5#campaignname{font-weight:bold; color:#f04a92; width:249px; background:#FFFFFF; border-right:1px solid #ffaf23; border-left:1px solid #ffaf23; font-size:100%; padding-top:9px; padding-left:9px;}
+h5#campaignname a{color:#f04a92;}
+h5#campaignname a:hover{text-decoration:none; color:#FF6699;}
+p#campaign_period{color:#f11173; margin:5px 0;}
+
+
+/* ÉTÅ[ÉrÉX */
+
+h4#service{background:url(/img/user/detail/header_service.gif) no-repeat; width:260px; height:31px; text-indent:-9999px; overflow:hidden;}
+dl#contentdesc_servicelist{width:240px; border-right:1px solid #ffaf23; border-left:1px solid #ffaf23; padding:0 9px 6px 9px; background:#FFFFFF;}
+dl#contentdesc_servicelist dt{color:#e46c02; font-weight:bold; padding-top:9px;}
+dl#contentdesc_servicelist dd{padding:8px 0;border-bottom:1px dotted #cccccc;}
+
+
+/* ÉIÉvÉVÉáÉì */
+
+h4#option{background:url(/img/user/detail/header_option.gif) no-repeat; width:260px; height:31px; text-indent:-9999px; overflow:hidden;}
+dl#contentdesc_optionlist{width:240px; border-right:1px solid #ffaf23; border-left:1px solid #ffaf23; padding:0 9px 6px 9px; background:#FFFFFF;}
+dl#contentdesc_optionlist dt{color:#3a8da0; font-weight:bold; padding-top:9px;}
+dl#contentdesc_optionlist dd{padding:8px 0;border-bottom:1px dotted #cccccc;}
+span.option_price{color:#666666; font-weight:100;}
+
+/* äÑà¯ÉÅÉjÉÖÅ[ */
+
+h4#discount{background:url(/img/user/detail/header_discount.gif) no-repeat; width:260px; height:31px; text-indent:-9999px; overflow:hidden;}
+ul#contentdesc_discountlist{width:240px; border-right:1px solid #ffaf23; border-left:1px solid #ffaf23; padding:0 9px 6px 9px; background:#FFFFFF;}
+ul#contentdesc_discountlist li{color:#CC0000; font-weight:bold; padding:8px 0;border-bottom:1px dotted #cccccc;clear:both; height:100%; display:block;}
+ul#contentdesc_discountlist li strong{color:#e46c02;width:165px;display:block;float:left; height:100%;}
+
+
+/* É{ÉgÉÄ */
+
+div#bottom{width:920px; padding-top:30px; padding-bottom:50px;}
+p#printout{background:url(/img/user/detail/btn_printout.gif) no-repeat; width:225px; height:32px; text-indent:-9999px; overflow:hidden; margin-left:auto; margin-right:auto; cursor:pointer;}
+p#back a{color:#0f69b0; float:left;}
+p#pagetop a{color:#686868; float:right;}
+
+p#box_estimate_fin{width:700px; padding:10px; border:1px solid #006699; color:#006699; margin-top:50px; margin-left:auto; margin-right:auto; margin-bottom:50px; text-align:center;}
+
+/* =======================
+5é¸îNãLîOÉLÉÉÉìÉyÅ[Éì
+========================== */
+#shop_detailCamp{
+	width: 520px;
+	height: 69px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: -20px;
+}
+#shop_detailCamp img{
+	border: none;
+}
+
+#ninja_onebutton{
+	clear: both;
+}
+/* IE6à»â∫*/
+* html #shop_detailCamp{
+}
+* html #shop_detailCamp img {
+	margin-bottom: 20px;
+}
+/* IE7*/
+*+html #shop_detailCamp img {
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+
+/* 161110 add */
+.estimateRec {width: 299px;text-align: center;margin: 0 auto 5px auto;}
+.estimateRec a {background:url(/img/user/detail/button2_off.png) no-repeat !important; width:299px; height:58px; display:block; text-indent:-9999px; overflow:hidden;}
+.estimateRec a:hover {background:url(/img/user/detail/button2_on.png) no-repeat bottom !important; width:299px; height:58px}
+
+/* 161117 rewrite */
+p.plan_btn_jump{text-align: center; font-size: 12px;}
+p.plan_btn_jump a{display:block; overflow:hidden;}
+p.plan_btn_jump a:hover{}

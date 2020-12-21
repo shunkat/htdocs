@@ -1,0 +1,40 @@
+/* CSS Document */
+
+div#content_left{float:left;width:440px;margin-left:10px;}
+div#content_right{float:right;width:420px;margin-right:20px;}
+
+div#content_left p{line-height:170%;}
+div#content_right p{line-height:170%;}
+
+h2#header_useinfo{background:url(images/useinfo/header_pagetitle.gif) no-repeat center center;width:95px;height:20px; text-indent:-9999px;overflow:hidden;padding:20px 0;}
+h3#header_whatis{background:url(images/useinfo/header_whatis.gif) no-repeat;width:155px;height:16px; text-indent:-9999px;overflow:hidden;margin:20px 0 10px 0;}
+h4#whatis_catch{background:url(images/useinfo/whatis_catch.gif) no-repeat; width:304px;height:19px;text-indent:-9999px;overflow:hidden;margin:20px 0 10px 0;}
+
+
+/* flow */
+h3#header_flow{background:url(images/useinfo/header_flow.gif) no-repeat;width:101px;height:16px;text-indent:-9999px;overflow:hidden;margin:20px 0 10px 0;}
+ul#list_flow{margin:10px 0 40px 0;}
+
+li#flow_1{width:369px;height:83px;background:url(images/useinfo/flow_1.gif) no-repeat;text-indent:-9999px;overflow:hidden;}
+li#flow_2{width:369px;height:62px;background:url(images/useinfo/flow_2.gif) no-repeat;text-indent:-9999px;overflow:hidden;}
+li#flow_3{width:385px;height:91px;background:url(images/useinfo/flow_3.gif) no-repeat;text-indent:-9999px;overflow:hidden;}
+
+/* feature */
+
+h3#header_feature{background:url(images/useinfo/header_feature.gif) no-repeat;width:125px;height:16px;text-indent:-9999px;overflow:hidden;margin:20px 0 10px 0;}
+h4#feature_catch{background:url(images/useinfo/feature_catch.gif) no-repeat;width:364px;height:69px;text-indent:-9999px;overflow:hidden;margin:20px 0;}
+
+dl#feature_list{margin:30px 0;}
+
+dt.feature_1{width:228px;height:18px;background:url(images/useinfo/feature_1_title.gif) no-repeat;text-indent:-9999px;overflow:hidden;margin-left:90px;}
+dd.feature_1{height:70px;background:url(images/useinfo/feature_1_bg.gif) no-repeat top left;padding-left:90px;padding-top:30px;margin-top:-20px;}
+
+dt.feature_2{width:238px;height:18px;background:url(images/useinfo/feature_2_title.gif) no-repeat;text-indent:-9999px;overflow:hidden;margin-left:90px;}
+dd.feature_2{height:70px;background:url(images/useinfo/feature_2_bg.gif) no-repeat top left;padding-left:90px;padding-top:30px;margin-top:-20px;}
+
+dt.feature_3{width:293px;height:18px;background:url(images/useinfo/feature_3_title.gif) no-repeat;text-indent:-9999px;overflow:hidden;margin-left:90px;}
+dd.feature_3{height:70px;background:url(images/useinfo/feature_3_bg.gif) no-repeat top left;padding-left:90px;padding-top:30px;margin-top:-20px;}
+
+
+dt.feature_4{width:192px;height:18px;background:url(images/useinfo/feature_4_title.gif) no-repeat;text-indent:-9999px;overflow:hidden;margin-left:90px;}
+dd.feature_4{height:70px;background:url(images/useinfo/feature_4_bg.gif) no-repeat top left;padding-left:90px;padding-top:30px;margin-top:-20px;}

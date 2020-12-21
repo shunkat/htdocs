@@ -1,0 +1,6 @@
+User-Agent : Googlebot
+Noindex : /estimate/
+sitemap : http://www.tokoton-navi.com/sitemap.html
+
+User-agent: SemrushBot
+Disallow: /

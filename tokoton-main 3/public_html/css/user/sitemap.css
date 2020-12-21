@@ -1,0 +1,15 @@
+h2#sitemap{padding:20px 0;}
+p#desc{padding:0 10px 10px 0;}
+
+ul#list_sitemap{margin:10px 0 40px 25px; padding:10px 40px; }
+ul#list_sitemap li{list-style:disc; padding:3px;}
+ul#list_sitemap a{color:#339900;}
+ul#list_sitemap a:hover{text-decoration:none; color:#006307;}
+
+ul#list{padding-left:50px;}
+
+ul ul{margin-left:30px;}
+
+
+ul#list_sitemap li ul.district {padding-bottom:10px;margin-bottom:10px;margin-top:5px;margin-left:0;}
+ul#list_sitemap li ul.district li{float:left;margin:0;padding:0;list-style:none;margin-left:15px;}

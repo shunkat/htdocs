@@ -1,0 +1,40 @@
+h2#privacy{padding:20px 0;}
+
+div.privacy_box{padding:10px; margin-top:10px; margin-bottom:20px; margin-left:auto; margin-right:auto;border:1px solid #dddddd;}
+h3{font-size:110%; color:#339900; padding-bottom:2px;}
+p.shout{border-top:1px dotted #cccccc;border-bottom:1px dotted #cccccc;padding:10px 0; margin:10px 0;background:white;color:#009933;}
+ol li{list-style:decimal; margin-left:22px; padding:5px 0;}
+p#enactment{padding-top:7px; border-top:1px dotted #CCCCCC; margin:5px 0; text-align:right;}
+p#right{text-align:right; padding-top:5px;}
+p#contact{padding:0 10px; margin-top:10px; margin-bottom:40px;width:650px;}
+
+ol#content li{list-style:none; margin-left:0;}
+ol#content_content{margin-left:25px;}
+li#indent{text-indent:-16px; padding-left:16px;}
+
+dt{font-weight:bold;}
+dd{margin-bottom:20px;margin-top:2px;}
+
+dd ol{margin-left:5px;}
+.sign{	text-align: right;
+}
+/* ƒŠƒXƒg */
+.privacy_box2 li{
+	list-style-type: none;
+    margin-left: 15px;
+}
+/* ˆÍ‚¢ */
+.pp_contact{
+	padding: 10px;
+	border: 1px solid #CCC;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/* mt, ml */
+.mt_10{
+	margin-left: 10px;
+    margin-top: 10px;
+}
+.ml_15{
+	margin-left: 15px;
+}

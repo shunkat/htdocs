@@ -1,0 +1,85 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_1.php$  http://tokoton-navi.com/knowledge_1.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_2.php$  http://tokoton-navi.com/knowledge_2.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_3.php$  http://tokoton-navi.com/knowledge_3.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_4.php$  http://tokoton-navi.com/knowledge_4.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_5.php$  http://tokoton-navi.com/knowledge_5.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_6.php$  http://tokoton-navi.com/knowledge_6.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_7.php$  http://tokoton-navi.com/knowledge_7.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_8.php$  http://tokoton-navi.com/knowledge_8.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_9.php$  http://tokoton-navi.com/knowledge_9.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_10.php$  http://tokoton-navi.com/knowledge_10.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_11.php$  http://tokoton-navi.com/knowledge_11.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_12.php$  http://tokoton-navi.com/knowledge_12.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_13.php$  http://tokoton-navi.com/knowledge_13.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_14.php$  http://tokoton-navi.com/knowledge_14.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_15.php$  http://tokoton-navi.com/knowledge_15.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_16.php$  http://tokoton-navi.com/knowledge_16.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_17.php$  http://tokoton-navi.com/knowledge_17.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_18.php$  http://tokoton-navi.com/knowledge_18.php [R=302,L]
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_19.php$  http://tokoton-navi.com/knowledge_19.php [R=302,L]
+
+#これより下、直URLでアクセスされたときにphpファイルの方にリダイレクトするためのコード
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_1.html$  http://tokoton-navi.com/knowledge_1.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_2.html$  http://tokoton-navi.com/knowledge_2.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_3.html$  http://tokoton-navi.com/knowledge_3.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_4.html$  http://tokoton-navi.com/knowledge_4.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_5.html$  http://tokoton-navi.com/knowledge_5.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_6.html$  http://tokoton-navi.com/knowledge_6.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_7.html$  http://tokoton-navi.com/knowledge_7.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_8.html$  http://tokoton-navi.com/knowledge_8.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_9.html$  http://tokoton-navi.com/knowledge_9.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_10.html$  http://tokoton-navi.com/knowledge_10.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_11.html$  http://tokoton-navi.com/knowledge_11.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_12.html$  http://tokoton-navi.com/knowledge_12.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_13.html$  http://tokoton-navi.com/knowledge_13.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_14.html$  http://tokoton-navi.com/knowledge_14.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_15.html$  http://tokoton-navi.com/knowledge_15.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_16.html$  http://tokoton-navi.com/knowledge_16.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_17.html$  http://tokoton-navi.com/knowledge_17.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_18.html$  http://tokoton-navi.com/knowledge_18.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^knowledge_19.html$  http://tokoton-navi.com/knowledge_19.php [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+
+</IfModule>

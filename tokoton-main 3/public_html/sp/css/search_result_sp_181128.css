@@ -1,0 +1,73 @@
+.clearfix::after{content: "";display: block;clear: both;}
+
+#acMenu dt,.accBox dt{display:block;width:100%;margin:0 auto;padding:15px 0px;font-size:16px;cursor:pointer;text-align:center;color:#fff;font-weight:bold;}
+#acMenu dd.acMenu-child{display: block;}
+#acMenu .c-icon{background-image:none;background-color:#49A500;cursor:pointer;display:block;-webkit-background-size:25px 8px;}
+#acMenu .c-icon_on{background-image:none;background-color:#49A500;cursor:pointer;display:block;-webkit-background-size:25px 8px;}
+
+.shop-unit{width: 96%;border: 1px solid #ccc;border-radius: 3px;border-top: 3px solid #49A500;margin:0 auto 10px auto;}
+.shop-unit-title{padding: 0;border-top:none;background:#f6f6f6;position: relative; font-weight: bold;}
+.shop-unit-title a{font-size:14px;line-height:17px;padding:10px;text-align:left;color:#49A500;display: block;}
+.shop-content{width:100%;}
+.shop-content .shop-img{float: left;width: 30%;}
+.shop-content .shop-img img{width: 100%;}
+.shop-content .shop-info{width: 70%;float: right;-webkit-box-sizing:border-box;box-sizing:border-box;padding-left: 10px;position: relative;}
+.shop-content .shop-info .shop-info-link{font-size: 12px;color: #fff;background-color:#49A500;padding: 5px;border-radius: 3px;position: absolute;display: block;top: 0;right: 0;}
+.shop-content .shop-serch{margin-bottom: 10px;width: 100%;}
+.shop-content .shop-serch p span{font-size: 10px;color: #fff;background: #49A500;border-radius: 3px; margin-right: 5px; padding: 2px 4px;}
+.shop-content .spEstimateBtn a{width: 100%;margin: 0 auto;color: #fff;border-radius: 0.25em;background-color: #ff7e07;padding: 10px 0;font-size: 16px;font-weight: 700;box-shadow: none;text-align: center;display: block;}
+.shop-content table td.shop-content-add{vertical-align: top;padding:0 52px 5px 0;text-align: left;line-height: 1.6rem;font-size: 12px;font-weight: normal;}
+.shop-content table td.shop-content-price{font-size:14px; text-align:left;color: #E74C3C;font-weight: bold;padding: 0;}
+.shop-content table{margin-bottom: 5px;}
+.shop-introduce{background-color: #e7fbd6;color: #617752;border-top: 1px solid #ccc;clear: both;}
+.shop-introduce p{padding: 10px 10px 10px 30px;font-size: 12px;line-height: 1.6rem; background: url(../images/shop-introduce-ico.png) no-repeat 9px 9px;background-size: 18px;}
+
+.arrow-shop::before,
+.arrow-shop::after{position:absolute;top:0;bottom:0;right:0;margin:auto;content:"";vertical-align:middle;}
+.arrow-shop::before{right:10px;width:6px;height:6px;border-top:2px solid #49A500;border-right:2px solid #49A500;-webkit-transform:rotate(45deg);transform:rotate(45deg);}
+.area-list{padding:14px 10px;border-bottom: 1px solid #49A500;position: relative;}
+.area-list h1{font-size: 16px;color: #49A500;}
+.area-list a{display: block;padding: 8px;background-color: #49A500;color: #fff;position: absolute;right: 10px;top: 7px;border-radius: 3px;font-size: 12px;}
+.search-result{padding: 10px;position: relative;border-bottom: 1px solid #ccc;}
+.search-result .result_num{margin:10px 0;padding-right:10px;float:none;width: 55%;font-size: 12px;}
+.search-result .result_num .number{font-size: 16px;}
+.search-result .result_sort{position: absolute;top: 12px;right: 10px;border: 1px solid #49A500;border-radius: 3px;font-size: 12px;background-color: #fff;}
+.search-result .result_sort a{display: block;padding: 10px;float: left;color: #49A500;}
+.search-result .result_sort a.on{background-color: #49A500;color: #fff;}
+
+.shop_serch_select_wrap select{width: 70%;padding: 3px;float: left;padding: 10px;-webkit-appearance:none;-moz-appearance:none;appearance:none;border:1px solid #999;font-size: 14px;background: url(../images/search/arrow-btm.png) no-repeat;background-position: right 5px bottom 50%;}
+.shop_serch_select_wrap p{float: left;width: 20%;padding: 10px;}
+.shop_serch_select_wrap .pref_list,
+.shop_serch_select_wrap .area_list{padding: 10px 0;border-bottom: 1px solid #ddd;}
+
+#acMenu{margin-bottom:0;}
+#acMenu dd.acMenu-child{width: 100%;margin: 0;padding: 0; background-color:#fff;}
+
+.optionBox{padding:10px;}
+.optionList{width:100%;overflow:hidden;border:none;}
+.optionList.type01 li{float:left;width:50%;}
+.optionList li{-webkit-box-sizing:border-box;box-sizing:border-box;position:relative;list-style:none;border:none;}
+.optionList li input{position:absolute;top:0;left:0;opacity:0;}
+.optionList li label{background-image: none; background-color: #fff;}
+.optionList li input:checked + label{background-image:none;background-color:#fff;color:#49A500;}
+.option-ttl{font-size:14px;font-weight:normal;vertical-align:middle;margin-bottom: 10px;}
+.option-ttl img{padding-right:5px;vertical-align:middle;}
+.option-comment{font-size:11px;line-height:1.2;}
+.optionList.type02 .option-ttl{float:left;width:55%;}
+.optionList.type02 .option-comment{float:left;width:45%;padding-top:2%;}
+.optionList.type03 li{float:left;width:50%;}
+.optionList.type03 li input[type="checkbox"]{display:none;}
+.optionList.type03 li label{padding:7px 3px 6px 30px;cursor:pointer;}
+.optionList.type03 li label::before,
+.optionList.type03 li label::after{position:absolute;content:'';-webkit-transition:all .2s;transition:all .2s;}
+.optionList.type03 li label::before{top:50%;left:0;width:14px;height:14px;margin-top:-8px;margin-left:7px;background:#fff;border:1px solid #ccc;border-radius:3px;}
+.optionList.type03 li label::after{opacity:0;top:50%;left:10px;width:8px;height:4px;margin-top:-4px;border-left:2px solid #49A500;border-bottom:2px solid #49A500;-webkit-transform:rotate(-45deg) scale(.5);transform:rotate(-45deg) scale(.5);}
+.optionList.type03 li label:hover::before{background:#fff;}
+.optionList.type03 li input[type="checkbox"]:checked + label::before{background:#fff;border:1px solid #49A500;}
+.optionList.type03 li input[type="checkbox"]:checked + label::after{opacity:1;-webkit-transform:rotate(-45deg) scale(1);transform:rotate(-45deg) scale(1);}
+.optionList.type03 .option-ttl{overflow:hidden;}
+.optionList.type03 .option-ttl > span{float:left;margin-top:0;}
+.optionList.type03 .option-ttl > img{float:right;width:30px;}
+
+.btn-submit{display: block;margin: 0 auto;padding: 10px;width: 100%;background-color: #ff7e07;border-radius: 3px;color: #fff;font-size: 16px;font-weight: 600;}
+.btn_submit_area{background-color: #efefef;padding: 20px;}

@@ -1,0 +1,100 @@
+@charset "shift-jis";
+
+/* Initialize */
+
+body,form,fieldset{margin:0; padding:0;}
+fieldset{border:none;}
+h1,h2,h3,h4,h5,h6,p,pre,blockquote,ul,ol,dl,dt,dd{margin:0; padding:0;}
+li{list-style:none;}
+
+html,body{height:100%;}
+
+body{line-height:150%;font-size:78%;color:#333333;}
+
+/* base layout */
+
+body div#header{width:920px;padding:22px 15px 0 15px;}
+body div#container{width:950px;text-align:left; border:1px solid #cccccc; border-top:7px solid #31c350;margin-left:auto;margin-right:auto;font-family:"‚l‚r ‚oƒSƒVƒbƒN", Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3";}
+body div#footer{width:950px;border-top:1px solid #cccccc;background:#f8f8f8;}
+
+div#content{width:920px;padding:10px 15px;}
+
+/* layout */
+
+div.right{float:right;}
+div.left{float:left;}
+
+/* common tags */
+
+br.clear{clear:both;line-height:1px;}
+div.error{border:1px solid red;padding:10px;color:red;margin:10px 0;}
+
+/* header */
+ul#submenu{width:342px; float:right; margin-top:1px;}
+ul#submenu li{float:right; font-size:10pt; margin-left:5px;}
+ul#submenu li a{color:#444444; background:url(/img/user/separator.gif) no-repeat left; padding-left:10px;}
+ul#submenu li a:hover{color:#FF6600;}
+ul#submenu li#menu_end a{background:none;}
+
+ul#breadcrumb li{font-size:10pt; float:left;}
+ul#breadcrumb li a{color:#3399cc; background:url(/img/user/breadcrumb_arrow.gif) no-repeat right; margin-right:5px; padding-right:10px;}
+ul#breadcrumb li a:hover{color:#3366CC;}
+
+p#title{width:200px;float:left;}
+p#title a{display:block;width:173px;height:35px;background:url(/img/user/title.gif) no-repeat;text-indent:-9999px;overflow:hidden;}
+
+h1{float:right; color:#00911f; font-size:100%;}
+p#lastupdate{text-align:right;color:#ffa200;font-weight:bold;font-size:9pt;}
+
+ul#mainmenu{background:url(/img/user/mainmenu_bg.gif) no-repeat; width:910px; height:28px; padding-left:10px; margin-top:18px;}
+ul#mainmenu li{float:left;}
+
+ul#mainmenu li#mainmenu_home a{display:block;background:url(/img/user/mainmenu_home.gif) no-repeat;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_useinfo a{display:block;background:url(/img/user/mainmenu_useinfo.gif) no-repeat;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_tokoton24 a{display:block;background:url(/img/user/mainmenu_tokoton24.gif) no-repeat;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_list a{display:block;background:url(/img/user/mainmenu_list.gif) no-repeat;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_knowledge a{display:block;background:url(/img/user/mainmenu_knowledge.gif) no-repeat;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_faq a{display:block;background:url(/img/user/mainmenu_faq.gif) no-repeat;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_inquiry a{display:block;background:url(/img/user/mainmenu_inquiry.gif) no-repeat;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+
+ul#mainmenu li#mainmenu_home a:hover{display:block;background:url(/img/user/mainmenu_home.gif) no-repeat bottom;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_useinfo a:hover{display:block;background:url(/img/user/mainmenu_useinfo.gif) no-repeat bottom;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_tokoton24 a:hover{display:block;background:url(/img/user/mainmenu_tokoton24.gif) no-repeat bottom;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_list a:hover{display:block;background:url(/img/user/mainmenu_list.gif) no-repeat bottom;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_knowledge a:hover{display:block;background:url(/img/user/mainmenu_knowledge.gif) no-repeat bottom;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_faq a:hover{display:block;background:url(/img/user/mainmenu_faq.gif) no-repeat bottom;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_inquiry a:hover{display:block;background:url(/img/user/mainmenu_inquiry.gif) no-repeat bottom;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+
+ul#mainmenu li#mainmenu_home_act a{display:block;background:url(/img/user/mainmenu_home_act.gif) no-repeat;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_useinfo_act a{display:block;background:url(/img/user/mainmenu_useinfo_act.gif) no-repeat;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_tokoton24_act a{display:block;background:url(/img/user/mainmenu_tokoton24_act.gif) no-repeat;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_list_act a{display:block;background:url(/img/user/mainmenu_list_act.gif) no-repeat;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_knowledge_act a{display:block;background:url(/img/user/mainmenu_knowledge_act.gif) no-repeat;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_faq_act a{display:block;background:url(/img/user/mainmenu_faq_act.gif) no-repeat;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+ul#mainmenu li#mainmenu_inquiry_act a{display:block;background:url(/img/user/mainmenu_inquiry_act.gif) no-repeat;width:150px;height:28px;text-indent:-9999px;overflow:hidden;}
+
+/* footer */
+div#footer ul#footer_menu{padding:10px 0 0 15px; float:left;}
+div#footer ul#footer_menu li{float:left;margin-right:5px;}
+ul#footer_menu li a{padding-right:10px; background:url(/img/user/separator.gif) no-repeat right; color:#666666;}
+ul#footer_menu li a:hover{color:#FF6600;}
+div#footer ul#footer_menu li#menu_end_footer a{background:none;}
+
+p#copyright{text-align:right;padding:10px 15px 10px 0;font-family:Arial, Helvetica, sans-serif;}
+p#pagetop a{color:#686868; float:right; background:url(/img/user/btn_pagetop.gif) no-repeat;width:92px;height:19px;text-indent:-9999px;overflow:hidden;}
+
+
+@media print {
+
+body div#container{border:none;margin:0;padding:0;}
+body div#header{display:none;}
+body div#footer{display:none;}
+body ul#breadcrumb{display:none;}
+  
+  body div{float:none;width:500px;padding:5px;margin:0;}
+  h2{display:none;}
+  p#printout{display:none;}
+  p#back{display:none;}
+  p#desc{display:none;}
+  div#coupon{padding:0;}
+}

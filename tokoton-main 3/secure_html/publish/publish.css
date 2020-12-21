@@ -1,0 +1,43 @@
+h2#publish{background:url(images/publish/header_pagetitle.gif) no-repeat center center; width:97px; height:20px; text-indent:-9999px; overflow:hidden; padding:20px 0;}
+span.small{font-size:90%;}
+p.desc{padding:0 10px 10px 0;}
+p.desc2{padding:0 10px 10px 20px;}
+div#publish_box{width:670px; margin-left:auto; margin-right:auto; padding-bottom:40px;}
+
+div#messagebox_error{border:1px solid #CC0000; padding:10px; color:#CC0000;text-align:center; margin-left:20px;}
+div#messagebox_error p{padding-bottom:10px; font-weight:bold;}
+
+h3#form_title{padding:25px 0 10px 0; background:url(images/publish/form_title.gif) no-repeat 0 25px; width:157px; height:16px; text-indent:-9999px; overflow:hidden;}
+h3#fax_title{padding:25px 0 10px 0; background:url(images/publish/fax_title.gif) no-repeat 0 25px; width:134px; height:16px; text-indent:-9999px; overflow:hidden;}
+
+h3{color:white;background:#6ec032;padding:10px;border:1px solid #5ba823;margin-bottom:10px;margin-left:20px;}
+
+table{width:650px; border-top:1px solid #bbbbbb; border-left:1px solid #bbbbbb; margin-bottom:10px; margin-left:20px;}
+table td{padding:5px; border-right:1px solid #bbbbbb; border-bottom:1px solid #bbbbbb;}
+td.left{background:#f0f0f0; width:179px;}
+td#btn{text-align:center;}
+
+input#btn_check{width:100px; margin:5px 0;}
+
+div#btn_layout{text-align:center;}
+
+p#content{background:url(images/publish/content_bg.gif) no-repeat 20px 0; width:255px; height:40px; padding:12px 35px; float:left;}
+img#arrow{margin:7px 15px 0 0; float:left;}
+p#fax{background:url(images/publish/fax.gif) no-repeat; width:286px; height:57px; text-indent:-9999px; overflow:hidden;}
+p#privacy{padding:7px; font-size:90%; border:1px solid #CCCCCC; width:630px; margin-left:20px; margin-top:50px;}
+
+/* 入力内容の確認 */
+h2#publish_confirm{background:url(images/publish/header_pagetitle_confirm.gif) no-repeat center center; width:164px; height:20px; text-indent:-9999px; overflow:hidden; padding:20px 0;}
+h3#form_title_confirm{padding:25px 0 10px 0; background:url(images/publish/confirm_title.gif) no-repeat 0 25px; width:132px; height:16px; text-indent:-9999px; overflow:hidden;}
+
+/* 送信完了 */
+h3#form_title_fin{padding:25px 0 10px 0; background:url(images/publish/fin_title.gif) no-repeat 0 25px; width:84px; height:16px; text-indent:-9999px; overflow:hidden;}
+p#fin_box{text-align:center; padding:20px; border:1px solid #bbbbbb; margin-left:20px; margin-top:10px;}
+div#fin_box h3{margin:0;margin-bottom:10px;}
+
+p#top{text-align:center; padding-top:30px;}
+p#top a{color:#006600;}
+p#top a:hover{color:#009900; text-decoration:none;}
+
+/* エラー */
+input#back{width:150px; margin-top:15px; margin-left:270px;}

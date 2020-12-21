@@ -1,0 +1,4 @@
+.ftpconfig
+CodeIgniter/cache/*
+CodeIgniter/logs/*
+.DS_Store

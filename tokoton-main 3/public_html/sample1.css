@@ -1,0 +1,231 @@
+.keisaiTop {
+  position: relative;
+  border-radius: 59px;
+  height: 50%;
+  width: 100%;
+}
+.topNavBox {
+  position: relative;
+  background: #ffffff;
+  box-shadow: 17px 13px 48px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  height: 288px;
+  width: 70%;
+  left: 300px;
+  top: -208px;
+  border-radius: 24px;
+}
+.topNavTitle {
+  position: relative;
+  height: 602px;
+  width: 100%;
+  left: 54px;
+  top: 36px;
+  border-radius: 59px;
+}
+.title {
+  width: 100%;
+  height: 116px;
+  top: 36px;
+  left: 36px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+
+  color: #011e09;
+
+  mix-blend-mode: normal;
+}
+.titleExplain {
+  width: 100%;
+  height: 143px;
+  top: 144px;
+  left: 36px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #011e09;
+
+  mix-blend-mode: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.brown {
+  color: brown;
+}
+.divideBar {
+  position: relative;
+  left: 47%;
+  right: 47%;
+  width: 6%;
+  height: 0px;
+
+  border: 1px solid #7d7b7b;
+  margin-bottom: 48px;
+}
+.contentTitle {
+  position: relative;
+  width: 100%;
+
+  left: 36px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+
+  color: #324025;
+}
+.contentExplain {
+  margin: 48px 84px 48px 84px;
+
+  position: relative;
+  width: 100%;
+  height: 252px;
+  left: 48px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 63px;
+
+  color: #4d5843;
+}
+.circle {
+  position: relative;
+  width: 71px;
+  height: 69px;
+  border-radius: 50%;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: center;
+  margin-right: 36px;
+  margin-left: 24px;
+  border-color: #7d7b7b;
+  color: #7d7b7b;
+}
+
+.process1 {
+  display: flex;
+  margin-top: 24px;
+}
+.process2 {
+  display: flex;
+  margin-bottom: 24px;
+}
+.figureBg {
+  background-color: #f2f1f1;
+  padding: 24px;
+  width: 80%;
+}
+.content3 {
+  margin-top: 360px;
+}
+
+.thinbottom {
+  position: relative;
+}
+.thinbottom::before {
+  position: relative;
+  content: "";
+  display: block;
+  top: 0px;
+  left: 58px;
+  width: 2px;
+  height: 156px;
+  background: #666;
+}
+.thinbottom::after {
+  position: relative;
+  content: "";
+  display: block;
+  top: -20px;
+  left: 47px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid;
+  border-color: transparent transparent #666 #666;
+  transform: rotate(-45deg);
+  margin-bottom: -18px;
+}
+.meritWrapper {
+  display: flex;
+}
+
+@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn--circle {
+  width: 140px;
+  height: 140px;
+  padding: 20px 0 0;
+  border-radius: 50%;
+  color: #fff;
+  background: #68eba3;
+  -webkit-box-shadow: 0 7px 0 #3be549;
+  box-shadow: 0 7px 0 #3be53b;
+}
+
+a.btn--circle i {
+  font-size: 150%;
+}
+
+.fa-position-bottom {
+  position: absolute;
+  bottom: 1rem;
+  left: calc(50% - 0.5rem);
+}
+
+a.btn--circle:hover {
+  -webkit-transform: translate(0, 4px);
+  transform: translate(0, 4px);
+  color: #fff;
+  -webkit-box-shadow: 0 3px 0 #3be56e;
+  box-shadow: 0 3px 0 #3be5ac;
+}

@@ -1,0 +1,24 @@
+/* 下部固定ボタンstyle 20191119_add */
+.shop_detail {
+  margin-bottom: 77px;
+}
+.contact-btn {
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+  text-align: center;
+  opacity: 0.95;
+  box-shadow: 0 -2px 6px rgba(0,0,0,.2);
+}
+.contact-btn a {
+  display: block;
+  padding: 17px;
+  background-color: #ff7e07;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: 4px solid #fcedde;
+  box-sizing: border-box;
+}

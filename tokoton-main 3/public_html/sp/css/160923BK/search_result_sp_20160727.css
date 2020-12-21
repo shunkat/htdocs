@@ -1,0 +1,364 @@
+@charset "utf-8";
+/* モバイル用検索結果CSS */
+
+.clear{
+	clear:both;
+	display:none;
+}
+/*検索絞り込みフォーム*/
+.shop-search{
+}
+
+
+
+.breadcrumb_list img{
+	
+}
+
+.shop-search-select-wrap{
+	width:95%;
+	height:30px;
+	margin:10px auto;
+	border-radius:5px;
+}
+
+.shop-search-select{
+	width:100%;
+	height:30px;
+	
+}
+
+.shop-search-title{
+	padding:10px;
+	text-align:left;
+	font-size:14px;
+	background:#49A500;
+	color:#fff;
+	font-weight:bold;
+}
+
+.shop-search-title2{
+	padding:10px;
+	text-align:left;
+	font-size:14px;
+	background:#ebf6e5;
+	color:#49A500;
+	font-weight:bold;
+}
+
+.shop-search input[type="checkbox"]{
+
+  width:20px;
+  height:20px;
+  border:2px solid #19283C;
+  border-radius:2px;
+  opacity:0.5;
+}
+.shop-search input[type="checkbox"]:checked{
+  opacity:1;
+}
+
+.op-text{
+	font-size:12px;
+	line-height:20px;
+	color:#49A500;
+	font-weight:bold;
+}
+
+.op-text2{
+	font-size:12px;
+	line-height:20px;
+	color:#333;
+}
+
+.op-list{
+	width:100%;
+	display:block;
+	border-bottom:1px solid #c4c4c4;
+}
+
+.op-list th{
+	vertical-align:middle;
+	padding:10px;	
+}
+
+.op-list td{
+	padding:10px;	
+	line-height:14px;
+	vertical-align:middle;
+	font-size:14px;
+}
+
+
+.al-center{
+	text-align:center;
+}
+
+.btn-search{
+	width:95%;
+	margin:10px auto;
+	padding:10px;
+	background:#E74C3C;
+	color:#ffffff;
+	font-weight:bold;
+	text-align:left;
+}
+
+.btn-search:hover{
+	background:#F63;
+}
+
+/* アコーディオン */
+#acMenu dt{
+    display:block;
+    width:95%;
+	margin:10px auto;
+	padding:10px 0px;
+	font-size:12px;
+    cursor:pointer;
+	text-align:left;
+	color:#fff;
+	font-weight:bold;
+}
+#acMenu dd{
+    display:none;
+}
+
+.pref-list-title{
+    display:block;
+    width:100%;
+	padding:20px 0;
+	font-size:12px;
+    cursor:pointer;
+	text-align:left;
+	color:#333;
+	background:#c4c4c4;
+}
+.is-not{
+    display:none;
+}
+
+.is-not li{
+	background:#f1f1f1;
+}
+
+/*アイコン切り替え*/
+.c-icon{
+	background:url(../images/search/white-b.png)right no-repeat #C69F85;
+	cursor:pointer;
+	display:block;
+		-webkit-background-size:25px 8px;
+}
+
+.c-icon_on{
+	background:url(../images/search/white-t.png)right no-repeat  #C69F85;
+	cursor:pointer;
+	display:block;
+		-webkit-background-size:25px 8px;
+}
+
+.g-icon{
+	background:url(../images/search/green-b.png)right no-repeat;
+	cursor:pointer;
+	display:block;
+		-webkit-background-size:25px 8px;
+}
+
+.g-icon_on{
+	background:url(../images/search/green-t.png)right no-repeat;
+	cursor:pointer;
+	display:block;
+	-webkit-background-size:25px 8px;
+}
+
+.pref-icon{
+	background:url(../images/search/arrow-b.gif)right no-repeat;
+	cursor:pointer;
+	display:block;
+	-webkit-background-size:20px 8px;
+}
+
+.pref-icon_on{
+	background:url(../images/search/arrow-t.gif)right no-repeat;
+	cursor:pointer;
+	display:block;
+	-webkit-background-size:20px 8px;
+}
+
+/*現在の条件*/
+.pref-search-result table{
+	width:95%;
+	margin:10px auto;
+	padding:10px;
+	border:1px solid #c4c4c4;
+	color:#333333;
+}
+
+.pref-search-result th{
+	width:30px;
+	vertical-align:middle;
+	border-bottom:1px solid #c4c4c4;
+	padding:10px;
+}
+
+.pref-search-result td{
+	width:100%;
+	text-align:left;
+	vertical-align:middle;
+	border-bottom:1px solid #c4c4c4;
+	padding:10px;
+	line-height:13px;
+}
+
+/*都道府県　店舗一覧*/
+.result_num{
+	margin:10px 0;
+	padding-right:10px;
+	float:right;
+}
+.shop-unit{
+	width:100%;
+	margin:0 auto 20px auto;
+	
+}
+
+.shop-unit-link{
+	display:block;
+	color:#000;
+	
+}
+
+.shop-unit-title{
+	font-size:14px;
+	line-height:17px;
+	padding:10px;
+	text-align:left;
+	background:#ebf6e5;
+	border-top:3px solid #49A500;
+	color:#333333;
+}
+
+.shop-unit-discount{
+	font-size:12px;
+	padding:5px 5px 5px 10px;
+	text-align:left;
+	margin:5px 0;
+	border:1px solid #f1f1f1;
+	margin:0 10px;
+}
+.is-red{
+	color:#E74C3C;
+	font-weight:bold;
+}
+
+.shop-unit-address{
+	height:40px;
+	font-size:12px;
+	line-height:17px;
+	text-align:left;
+	padding-left:10px;
+	margin-top:5px;
+}
+
+.shop-content{
+	padding:10px;
+}
+
+.shop-content table th, 
+.shop-content table td {
+	vertical-align:top;
+	padding:0 10px;
+	text-align:left;
+	line-height:17px;
+}
+
+th.shop-content-add {
+	font-weight:normal;
+	font-size:9px!important;
+}
+
+th.shop-content-price {
+	font-size:12px;
+	
+}
+
+
+.pager-wrap{
+	width:280px;
+	margin:0px auto 30px auto;
+	font-size:10px;
+}
+
+.pager-wrap a{
+	display:block;
+	width::100px;
+	padding:10px 1px;
+	color: #111;
+}
+
+.pager-wrap a:hover{
+	opacity:0.4;
+}
+
+.pager-left{
+	background: -moz-linear-gradient(top,#FFF 0%,#E6E6E6);
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#E6E6E6));
+	border: 1px solid #DDD;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	width: 60px;
+	text-align:center;
+	display:table-cell;
+}
+
+.pager-center{
+	background: -moz-linear-gradient(top,#FFF 0%,#E6E6E6);
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#E6E6E6));
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	color: #111;
+	width: 150px;
+	text-align:center;
+	display:table-cell;
+}
+
+.pager-right{
+	background: -moz-linear-gradient(top,#FFF 0%,#E6E6E6);
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#E6E6E6));
+	border: 1px solid #DDD;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	color: #111;
+	width: 60px;
+	text-align:center;
+	display:table-cell;
+}
+
+/*他の都道府県から探す*/
+
+.pref-search{
+	width:100%;
+}
+
+.pref-search-title{
+	padding:10px;
+	text-align:left;
+	font-size:14px;
+	background:#49A500;
+	color:#fff;
+}
+
+.pref-search li{
+	font-size:12px;
+	border-bottom:1px solid #999999;
+}
+
+.pref-search li a{
+	display:block;
+	padding:15px 8px 15px 10px;
+	color:#000;
+}
+
+.arrow-b{
+	float:right;
+}

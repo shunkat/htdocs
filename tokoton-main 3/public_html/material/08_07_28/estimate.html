@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<title>見積りフォーム | とことん車検ナビ</title>
+<script type="text/javascript" src="./js/main.js"></script>
+<link href="common.css" rel="stylesheet" type="text/css" />
+<link href="estimate.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="container">
+  <div id="header">
+    <p id="title"><a href="./index.html">とことん車検ナビ - tokoton-navi.com</a></p>
+	<h1>とことん車検ナビは信頼できる全国の車検ショップの車検、お得情報をご紹介。全店舗とことん24対応</h1>
+	<ul id="submenu">
+		<li><a href="#">サイトマップ</a></li>
+		<li><a href="#">プライバシーポリシー</a></li>
+		<li><a href="#">掲載依頼</a></li>
+		<li id="menu_end"><a href="./useinfo.html">利用案内</a></li>		
+	</ul>
+    <br class="clear" />
+    <ul id="mainmenu">
+      <li id="mainmenu_home"><a href="./index.html">ホーム</a></li>
+      <li id="mainmenu_list_act"><a href="./search_top.html">車検をさがす</a></li>
+      <li id="mainmenu_tokoton24"><a href="#">とことん24とは？</a></li>
+      <li id="mainmenu_knowledge"><a href="#">車検のいろは</a></li>
+      <li id="mainmenu_faq"><a href="#">よくある質問</a></li>
+      <li id="mainmenu_inquiry"><a href="#">お問い合わせ</a></li>
+    </ul>
+    <br class="clear" />
+  </div>
+  <div id="content">
+    <ul id="breadcrumb">
+      <li><a href="./index.html">ホーム</a></li>
+      <li><a href="./search_top.html">車検をさがす</a></li>
+      <li><a href="./result.html">検索結果</a></li>
+      <li><a href="./detail.html">店舗詳細</a></li>
+      <li>見積りフォーム</li>
+    </ul>
+    <br class="clear"/>
+    <h2 id="estimate">見積りフォーム</h2>
+    <p id="desc">お手元に車検証をご用意下さい。下記フォームにご記入のうえ確認ボタンを押してください。※印は必須項目です。</p>
+    <table id="userdata">
+      <tr>
+        <td class="rabel">店名</td>
+        <td class="value">元気スタンド渋谷店(店舗番号：0003)</td>
+      </tr>
+      <tr>
+        <td class="rabel">車検プラン名</td>
+        <td class="value">わくわく車検</td>
+      </tr>
+      <tr>
+        <td class="rabel">お客様氏名 ※</td>
+        <td class="value"><input name="textfield" type="text" size="30" /></td>
+      </tr>
+      <tr>
+        <td class="rabel">連絡先電話番号 ※</td>
+        <td class="value"><input name="textfield2" type="text" size="30" /></td>
+      </tr>
+      <tr>
+        <td class="rabel">メールアドレス ※</td>
+        <td class="value"><input name="textfield23" type="text" size="35" /></td>
+      </tr>
+      <tr>
+        <td class="rabel">自動車の種別 ※</td>
+        <td class="value"><input name="car_type" type="radio" value="軽自動車" id="car_type1" /><label for="car_type1">軽自動車</label>
+          <input name="car_type" type="radio" value="小型" id="car_type2" /><label for="car_type2">小型</label>
+          <input name="car_type" type="radio" value="普通" id="car_type3" /><label for="car_type3">普通</label>
+          <p class="tips">＊車検証1行目の4番目</p></td>
+      </tr>
+      <tr>
+        <td class="rabel">用途 ※</td>
+        <td class="value"><input name="car_use" type="radio" value="乗用" id="car_use1" /><label for="car_use1">乗用</label>
+          <input name="car_use" type="radio" value="貨物" id="car_use2" /><label for="car_use2">貨物</label>
+          <input name="car_use" type="radio" value="特殊" id="car_use3" /><label for="car_use3">特殊</label>
+          <input name="car_use" type="radio" value="その他" id="car_use4" /><label for="car_use4">その他</label>
+          <p class="tips">＊車検証1行目の5番目</p></td>
+      </tr>
+      <tr>
+        <td class="rabel">車両重量 ※</td>
+        <td class="value"><input name="textfield22" type="text" size="7" />
+          kg
+          <p class="tips">＊車検証2行目右から2つ目　（軽自動車の場合は記入の必要はありません。）</p></td>
+      </tr>
+      <tr>
+        <td class="rabel">車両総重量（貨物車の場合はご記入下さい）</td>
+        <td class="value"><input name="textfield222" type="text" size="7" />
+          kg
+          <p class="tips">＊車検証2行目右端</p></td>
+      </tr>
+      <tr>
+        <td class="rabel">保証サービス <a href="#">とことん24</a></td>
+        <td class="value"><input name="car_service" type="radio" value="希望する" id="car_service1" /><label for="car_service1">希望する</label>
+          <input name="car_service" type="radio" value="希望する" id="car_service2" /><label for="car_service2">希望しない</label></td>
+      </tr>
+      <tr>
+        <td colspan="2" class="value"><p id="service">ご利用予定の割引メニューはありますか？</p>
+          <table id="servicemenu">
+            <tr>
+              <td width="150" class="rabel">割引メニュー</td>
+              <td width="480" class="rabel">説明</td>
+              <td width="135" class="rabel_check">使う</td>
+              <td width="60" class="rabel_check">使わない</td>
+              <td width="60" class="rabel_check">分からない</td>
+            </tr>
+            <tr>
+              <td class="value">早期予約割引</td>
+              <td class="value">ここに説明が入ります。</td>
+              <td class="check"><ul>
+                  <li>
+                    <input name="discount1" type="radio" value="6ヶ月以上前" id="discount_1_use1" /><label for="discount_1_use1">6ヶ月以上前</label></li>
+                  <li>
+                    <input name="discount1" type="radio" value="4ヶ月以上前" id="discount_1_use2" /><label for="discount_1_use2">4ヶ月以上前</label></li>
+                  <li>
+                    <input name="discount1" type="radio" value="3ヶ月以上前" id="discount_1_use3" /><label for="discount_1_use3">3ヶ月以上前</label></li>
+                </ul></td>
+              <td class="check"><input name="radiobutton4" type="radio" value="radiobutton" /></td>
+              <td class="check"><input name="radiobutton4" type="radio" value="radiobutton" checked="checked" /></td>
+            </tr>
+            <tr>
+              <td class="value">前日持ち込み割引</td>
+              <td class="value">ここに説明が入ります。</td>
+              <td class="check"><input name="radiobutton5" type="radio" value="radiobutton" /></td>
+              <td class="check"><input name="radiobutton5" type="radio" value="radiobutton" /></td>
+              <td class="check"><input name="radiobutton5" type="radio" value="radiobutton" checked="checked" /></td>
+            </tr>
+            <tr>
+              <td class="value">新車初回車検割引</td>
+              <td class="value">ここに説明が入ります。</td>
+              <td class="check"><input name="radiobutton6" type="radio" value="radiobutton" /></td>
+              <td class="check"><input name="radiobutton6" type="radio" value="radiobutton" /></td>
+              <td class="check"><input name="radiobutton6" type="radio" value="radiobutton" checked="checked" />
+              </td>
+            </tr>
+            <tr>
+              <td class="value">代車なし割引</td>
+              <td class="value">ここに説明が入ります。</td>
+              <td class="check"><input name="radiobutton7" type="radio" value="radiobutton" />
+              </td>
+              <td class="check"><input name="radiobutton7" type="radio" value="radiobutton" />
+              </td>
+              <td class="check"><input name="radiobutton7" type="radio" value="radiobutton" checked="checked" />
+              </td>
+            </tr>
+            <tr>
+              <td class="value">入庫日即決割引</td>
+              <td class="value">ここに説明が入ります。</td>
+              <td class="check"><input name="radiobutton8" type="radio" value="radiobutton" />
+              </td>
+              <td class="check"><input name="radiobutton8" type="radio" value="radiobutton" />
+              </td>
+              <td class="check"><input name="radiobutton8" type="radio" value="radiobutton" checked="checked" />
+              </td>
+            </tr>
+            <tr>
+              <td class="value">リピート割引</td>
+              <td class="value">ここに説明が入ります。</td>
+              <td class="check"><input name="radiobutton9" type="radio" value="radiobutton" />
+              </td>
+              <td class="check"><input name="radiobutton9" type="radio" value="radiobutton" />
+              </td>
+              <td class="check"><input name="radiobutton9" type="radio" value="radiobutton" checked="checked" />
+              </td>
+            </tr>
+            <tr>
+              <td class="value">ペア割引</td>
+              <td class="value">ここに説明が入ります。</td>
+              <td class="check"><input name="radiobutton10" type="radio" value="radiobutton" />
+              </td>
+              <td class="check"><input name="radiobutton10" type="radio" value="radiobutton" />
+              </td>
+              <td class="check"><input name="radiobutton10" type="radio" value="radiobutton" checked="checked" />
+              </td>
+            </tr>
+          </table></td>
+      </tr>
+      <tr>
+        <td colspan="2" id="btn"><p id="check"><a href="./estimate_confirm.html">確認</a></p>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div id="footer">
+    <ul id="footer_menu">      <li><a href="./useinfo.html">利用案内</a></li>
+      <li><a href="#">掲載依頼</a></li>
+      <li><a href="#">利用規約</a></li>
+      <li><a href="#">運営会社</a></li>
+      <li><a href="#">プライバシーポリシー</a></li>
+      <li id="menu_end_footer"><a href="#">サイトマップ</a></li>
+    </ul>
+    <p id="copyright">Copyright(C)2008 Shakenavi All Rights Reserved.</p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+h2#detail{background:url(images/detail/header_pagetitle.gif) no-repeat center center; width:96px; height:20px; text-indent:-9999px; overflow:hidden; padding:20px 0;}
+
+h3#shopname{background:url(images/detail/header_shopname.gif) no-repeat; width:805px; height:41px; float:left; padding-left:10px; font-size:11pt; line-height:41px; color:#FFFFFF; margin-bottom:25px; margin-top:10px;}
+p#shopnumber{background:url(images/detail/header_shopnumber.gif) no-repeat; width:105px; height:41px; font-size:10pt; line-height:41px; color:#FFFFFF; float:left; margin-bottom:25px; margin-top:10px;}
+
+div#content_all{background:url(images/detail/bg_white.gif) repeat-x bottom #ffeab9;}
+div#content_left{width:630px; float:left; padding-left:10px; background:#FFFFFF;}
+div#content_right{width:270px; float:right; padding:10px 0 0 10px;}
+div.right_contentbox{background:url(images/detail/footer_contentsright.gif) no-repeat bottom; padding-bottom:4px; width:260px; margin-bottom:10px;}
+dl#contentdesc{width:240px; border-right:1px solid #ffaf23; border-left:1px solid #ffaf23; padding:9px 9px 6px 9px; background:#FFFFFF;}
+dl#contentdesc dd{padding:8px 0;}
+
+img.noimage{border:1px solid #bbbbbb;}
+img.noimage_c{border:1px solid #bbbbbb; margin-left:4px;}
+
+/* 紹介 */
+
+dl.pic_big{width:350px; float:left;}
+dl.pic_big dd{padding:10px 0;}
+h5#introduction{color:#008aab; font-size:105%; padding-bottom:7px;}
+
+dl.pic_small{width:230px; float:right; margin-right:10px; text-align:center;}
+dl.pic_small dd{padding-top:5px; padding-bottom:15px;}
+
+
+/* プラン */
+
+h4#plan{background:url(images/detail/header_plan.gif) no-repeat; width:620px; height:36px; text-indent:-9999px; overflow:hidden; margin:30px 0 10px 0;}
+ul#plan_navi{margin-left:10px; margin-bottom:40px;}
+ul#plan_navi li{float:left;}
+ul#plan_navi li a{padding-right:10px; margin-right:5px; background:url(images/detail/plan_navi_separator.gif) no-repeat right; color:#0066cc;}
+ul#plan_navi li a:hover{text-decoration:none;}
+ul#plan_navi li#none a{background:none;}
+
+h5.plan_name{background:url(images/detail/header_planname.gif) no-repeat; width:575px; height:31px; padding-left:25px; font-size:10pt; line-height:31px; color:#006307; margin-left:10px;}
+div.plan_detail{border:1px solid #c0ce9f; border-top:none; width:578px; padding:15px 10px 8px; margin-bottom:10px; margin-left:10px;}
+div.plan_desc{width:320px; float:left;}
+h6.plan_detail_title{font-size:100%; color:#23901e; margin-bottom:10px;}
+table.plan_price{float:right; text-align:center; border-top:1px solid #cfcfcf; border-left:1px solid #cfcfcf;}
+table.plan_price td{padding:3px 6px; border-right:1px solid #cfcfcf; border-bottom:1px solid #cfcfcf;}
+table.plan_price td.price_title{background:#f3f3f3;}
+table.plan_price td.serviceprice{color:#FF9900; font-weight:bold;}
+
+p.plan_btn{padding-top:30px; margin-left:404px;}
+p.plan_btn a{background:url(images/detail/btn_plan.gif) no-repeat; width:174px; height:29px; display:block; text-indent:-9999px; overflow:hidden;}
+p.plan_btn a:hover{background:url(images/detail/btn_plan.gif) no-repeat bottom; width:174px; height:29px;}
+
+
+/* 店舗データ */
+
+h4#shopdata{background:url(images/detail/header_shopdata.gif) no-repeat; width:620px; height:38px; text-indent:-9999px; overflow:hidden; margin-top:30px; margin-bottom:15px;}
+ul#icon{margin-left:10px;}
+ul#icon li{float:left; padding-right:6px;}
+table#shopdata{margin-left:10px; border-top:1px solid #ddb1a8; border-left:1px solid #ddb1a8; width:598px; margin-top:20px;}
+table#shopdata td{padding:6px 0; border-right:1px solid #ddb1a8; border-bottom:1px solid #ddb1a8;}
+table#shopdata td.datatitle{text-align:center; background:#ffece8; width:106px;}
+table#shopdata td.value{padding:0 6px;}
+ul#card li{float:left; padding:10px 8px 10px 0;}
+
+div#box_freedial{background:#ffdecf; padding:6px; margin:6px 0;}
+div#box_freedial strong{color:#CC0000;}
+
+
+/* クーポン */
+
+h4#coupon{background:url(images/detail/header_coupon.gif) no-repeat; width:260px; height:31px; text-indent:-9999px; overflow:hidden;}
+
+
+/* キャンペーン */
+
+h4#campaign{background:url(images/detail/header_campaign.gif) no-repeat; width:260px; height:31px; text-indent:-9999px; overflow:hidden;}
+h5#campaignname{font-weight:bold; color:#f04a92; width:249px; background:#FFFFFF; border-right:1px solid #ffaf23; border-left:1px solid #ffaf23; font-size:100%; padding-top:9px; padding-left:9px;}
+p#campaign_period{color:#f11173; margin-top:10px;}
+
+
+/* サービス */
+
+h4#service{background:url(images/detail/header_service.gif) no-repeat; width:260px; height:31px; text-indent:-9999px; overflow:hidden;}
+dl#contentdesc_servicelist{width:240px; border-right:1px solid #ffaf23; border-left:1px solid #ffaf23; padding:0 9px 6px 9px; background:#FFFFFF;}
+dl#contentdesc_servicelist dt{color:#e46c02; font-weight:bold; padding-top:9px;}
+dl#contentdesc_servicelist dd{padding:8px 0;border-bottom:1px dotted #cccccc;}
+
+
+/* オプション */
+
+h4#option{background:url(images/detail/header_option.gif) no-repeat; width:260px; height:31px; text-indent:-9999px; overflow:hidden;}
+dl#contentdesc_optionlist{width:240px; border-right:1px solid #ffaf23; border-left:1px solid #ffaf23; padding:0 9px 6px 9px; background:#FFFFFF;}
+dl#contentdesc_optionlist dt{color:#3a8da0; font-weight:bold; padding-top:9px;}
+dl#contentdesc_optionlist dd{padding:8px 0;border-bottom:1px dotted #cccccc;}
+span.option_price{color:#666666; font-weight:100;}
+
+
+/* ボトム */
+
+div#bottom{width:920px; padding-top:30px; padding-bottom:50px;}
+p#printout{background:url(images/detail/btn_printout.gif) no-repeat; width:225px; height:32px; text-indent:-9999px; overflow:hidden; margin-left:auto; margin-right:auto; cursor:pointer;}
+p#back a{color:#0f69b0; float:left;}
+p#pagetop a{color:#686868; float:right;}

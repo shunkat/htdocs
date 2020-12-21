@@ -1,0 +1,143 @@
+﻿div#content_left{float:left;width:320px; padding-top:3px;}
+div#content_right{float:right;width:575px; padding-top:3px;}
+
+span.orange{color:#FF6600;}
+span.red{color:#FF0000;}
+
+
+/* 現在の掲載情報 */
+
+p#update{width:298px; border:1px solid #e9bfa2; background:#ffe0cb; color:#333333; font-weight:bold; padding:6px 10px;}
+
+
+/* トピックス */
+
+div#box_topics{padding-bottom:3px; border-bottom:2px solid #e6c800;}
+h2#topics{background:url(/img/user/top/h2_topics.gif) no-repeat; width:320px; height:44px; text-indent:-9999px; overflow:hidden; margin-top:10px; margin-bottom:5px;}
+table#table_topics{width:320px;}
+table#table_topics td{padding:4px 5px; border-bottom:2px solid #FFFFFF; color:#665a00;}
+
+td.title{font-weight:bold;}
+
+.odd td{background:#ffd096;}
+.even td{background:#fff296;}
+
+
+/* 検索ボックス */
+
+div#box_search{background:url(/img/user/top/bg_search_bottom.gif) no-repeat bottom; padding-bottom:6px;}
+div.box_search_content{width:318px; border-left:1px solid #adadad; border-right:1px solid #adadad; background:#f6f6f6; padding-bottom:10px; text-align:center;}
+img#search_btn1{margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:5px;}
+img#search_btn2{margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:5px;}
+
+h2#search{background:url(/img/user/top/h2_search.gif) no-repeat; width:320px; height:36px; text-indent:-9999px; overflow:hidden; margin-top:30px;}
+h3#search_region{background:url(/img/user/top/h3_search_region.gif) no-repeat; width:320px; height:35px; text-indent:-9999px; overflow:hidden;}
+p#search_region_desc{background:url(/img/user/top/desc_search_region.jpg) no-repeat; width:318px; height:32px; text-indent:-9999px; overflow:hidden;}
+
+h3#search_freeword{background:url(/img/user/top/h3_search_freeword.gif) no-repeat; width:320px; height:40px; text-indent:-9999px; overflow:hidden;}
+p#search_freeword_desc{background:url(/img/user/top/desc_search_freeword.gif) no-repeat; width:318px; height:32px; text-indent:-9999px; overflow:hidden;}
+input#freeword{margin:15px 0 3px 0;}
+p#example{width:150px; margin-left:40px; _margin-left:-80px;}
+
+h3#search_option{background:url(/img/user/top/h3_search_option.gif) no-repeat; width:320px; height:51px; text-indent:-9999px; overflow:hidden;}
+p#search_option_desc{background:url(/img/user/top/desc_search_potion.gif) no-repeat; width:318px; height:32px; text-indent:-9999px; overflow:hidden;}
+p#search_option_check_desc{background:url(/img/user/top/desc_search_option_check.gif) no-repeat; width:318px; height:26px; text-indent:-9999px; overflow:hidden; margin-bottom:10px;}
+ul#option_list{margin-left:7px;}
+ul#option_list li{width:146px; height:36px; float:left; background:#FFFFFF; border:1px solid #cccccc; margin-bottom:6px;}
+ul#option_list li.option_left{margin-right:7px;}
+ul#option_list input{float:left; margin:8px 0 0 5px;}
+p#option1{background:url(/img/user/top/option_list1.gif) no-repeat; width:109px; height:24px; text-indent:-9999px; overflow:hidden; margin-top:6px; float:right; margin-right:3px;}
+p#option2{background:url(/img/user/top/option_list2.gif) no-repeat; width:110px; height:24px; text-indent:-9999px; overflow:hidden; margin-top:6px; float:right; margin-right:3px;}
+p#option3{background:url(/img/user/top/option_list3.gif) no-repeat; width:109px; height:24px; text-indent:-9999px; overflow:hidden; margin-top:6px; float:right; margin-right:3px;}
+p#option4{background:url(/img/user/top/option_list4.gif) no-repeat; width:110px; height:24px; text-indent:-9999px; overflow:hidden; margin-top:6px; float:right; margin-right:3px;}
+p#option5{background:url(/img/user/top/option_list5.gif) no-repeat; width:109px; height:24px; text-indent:-9999px; overflow:hidden; margin-top:6px; float:right; margin-right:3px;}
+p#option6{background:url(/img/user/top/option_list6.gif) no-repeat; width:110px; height:24px; text-indent:-9999px; overflow:hidden; margin-top:6px; float:right; margin-right:3px;}
+p#option7{background:url(/img/user/top/option_list7.gif) no-repeat; width:109px; height:24px; text-indent:-9999px; overflow:hidden; margin-top:6px; float:right; margin-right:3px;}
+p#option8{background:url(/img/user/top/option_list8.gif) no-repeat; width:110px; height:24px; text-indent:-9999px; overflow:hidden; margin-top:6px; float:right; margin-right:3px;}
+p#option9{background:url(/img/user/top/option_list9.gif) no-repeat; width:109px; height:26px; text-indent:-9999px; overflow:hidden; margin-top:5px; float:right; margin-right:3px;}
+p#option10{background:url(/img/user/top/option_list10.gif) no-repeat; width:110px; height:26px; text-indent:-9999px; overflow:hidden; margin-top:5px; float:right; margin-right:3px;}
+p#option11{background:url(/img/user/top/option_list11.gif) no-repeat; width:109px; height:26px; text-indent:-9999px; overflow:hidden; margin-top:5px; float:right; margin-right:3px;}
+p#option12{background:url(/img/user/top/option_list12.gif) no-repeat; width:110px; height:26px; text-indent:-9999px; overflow:hidden; margin-top:5px; float:right; margin-right:3px;}
+p#option13{background:url(/img/user/top/option_list13.gif) no-repeat; width:109px; height:26px; text-indent:-9999px; overflow:hidden; margin-top:6px; float:right; margin-right:3px;}
+p#option14{background:url(/img/user/top/option_list14.gif) no-repeat; width:110px; height:26px; text-indent:-9999px; overflow:hidden; margin-top:5px; float:right; margin-right:3px;}
+p#option15{background:url(/img/user/top/option_list15.gif) no-repeat; width:109px; height:26px; text-indent:-9999px; overflow:hidden; margin-top:6px; float:right; margin-right:3px;}
+p#option16{background:url(/img/user/top/option_list16.gif) no-repeat; width:110px; height:26px; text-indent:-9999px; overflow:hidden; margin-top:5px; float:right; margin-right:3px;}
+
+
+/* ＰＲ */
+
+div#box_pr img{border:1px solid #c5c5c5; margin-bottom:15px;}
+h2#pr{background:url(/img/user/top/h2_pr.gif) no-repeat; width:31px; height:13px; text-indent:-9999px; overflow:hidden; margin-top:20px; margin-bottom:10px;}
+
+
+/* お得な車検を選ぼう */
+
+h2#economy{background:url(/img/user/top/h2_economy.gif) no-repeat; width:575px; height:219px; text-indent:-9999px; overflow:hidden; margin-bottom:9px;}
+p#economy_desc{background:url(/img/user/top/desc_economy.gif) no-repeat center center #75ae0a; width:525px; height:20px; text-indent:-9999px; overflow:hidden; margin-left:auto; margin-right:auto;}
+p#economy_desc_privilege{background:url(/img/user/top/desc_economy_present.gif) no-repeat; width:481px; height:30px; text-indent:-9999px; overflow:hidden; margin:10px 0 20px 25px;}
+
+
+/* 特典 */
+
+h3#privilege{background:url(/img/user/top/h3_privilege.gif) no-repeat; width:524px; height:69px; text-indent:-9999px; overflow:hidden; margin-left:auto; margin-right:auto; margin-bottom:10px;}
+ul#privilege_list{margin-left:45px;}
+ul#privilege_list li{float:left; margin-right:12px;}
+ul#privilege_list img{border:0;}
+
+h4#privilege1{background:url(/img/user/top/h4_present_gourmet.gif) no-repeat bottom; width:122px; height:31px; text-indent:-9999px; overflow:hidden;}
+p#privilege1_desc{background:url(/img/user/top/desc_present_gourmet.gif) no-repeat; width:149px; height:24px; text-indent:-9999px; overflow:hidden; margin:7px 0 9px 0;}
+
+h4#privilege2{background:url(/img/user/top/h4_present_goods.gif) no-repeat; width:122px; height:31px; text-indent:-9999px; overflow:hidden;}
+p#privilege2_desc{background:url(/img/user/top/desc_present_goods.gif) no-repeat; width:150px; height:24px; text-indent:-9999px; overflow:hidden; margin:7px 0 9px 0;}
+
+h4#privilege3{background:url(/img/user/top/h4_present_lottery.gif) no-repeat bottom; width:130px; height:31px; text-indent:-9999px; overflow:hidden;}
+p#privilege3_desc{background:url(/img/user/top/desc_present_lottery.gif) no-repeat; width:145px; height:24px; text-indent:-9999px; overflow:hidden; margin:7px 0 9px 0;}
+
+h4#privilege4{background:url(/img/user/top/h4_present_gasoline.gif) no-repeat; width:138px; height:16px; text-indent:-9999px; overflow:hidden; margin-top:20px;}
+p#privilege4_desc{background:url(/img/user/top/desc_present_gasoline.gif) no-repeat; width:137px; height:25px; text-indent:-9999px; overflow:hidden; margin:7px 0 8px 0;}
+
+h4#privilege5{background:url(/img/user/top/h4_present_discount.gif) no-repeat; width:113px; height:16px; text-indent:-9999px; overflow:hidden; margin-top:20px;}
+p#privilege5_desc{background:url(/img/user/top/desc_present_discount.gif) no-repeat; width:145px; height:25px; text-indent:-9999px; overflow:hidden; margin:7px 0 8px 0;}
+
+h4#privilege6{background:url(/img/user/top/h4_present_oilchange.gif) no-repeat; width:140px; height:16px; text-indent:-9999px; overflow:hidden; margin-top:20px;}
+p#privilege6_desc{background:url(/img/user/top/desc_present_oilchange.gif) no-repeat; width:133px; height:24px; text-indent:-9999px; overflow:hidden; margin:7px 0 9px 0;}
+
+
+/* ポイント・マイル */
+
+h3#point{background:url(/img/user/top/h3_point.gif) no-repeat; width:524px; height:69px; text-indent:-9999px; overflow:hidden; margin-left:auto; margin-right:auto; margin-top:20px;}
+h4#card{background:url(/img/user/top/h4_point_card.gif) no-repeat; width:468px; height:43px; text-indent:-9999px; overflow:hidden; margin-top:10px; margin-left:auto; margin-right:auto;}
+p#card_desc{background:url(/img/user/top/bg_point_card.gif) no-repeat; width:455px; height:111px; margin-left:auto; margin-right:auto; padding:4px 0 0 13px;}
+p#card_desc strong{color:#ff7e00;}
+p#card_desc img{border:0; margin-top:4px;}
+
+p#otherprivileges{background:url(/img/user/top/desc_otherprivileges.gif) no-repeat; width:500px; height:15px; text-indent:-9999px; overflow:hidden; margin-left:auto; margin-right:auto; margin-top:20px;}
+
+
+/* とことん24 */
+
+h3#tokoton{background:url(/img/user/top/h3_tokoton.gif) no-repeat; width:565px; height:48px; text-indent:-9999px; overflow:hidden; margin-left:10px; margin-top:25px;}
+div#box_tokoton{width:563px; border:1px solid #bdbdbd; border-top:none; margin-left:10px; padding-top:11px;}
+div#box_tokoton img{border:0; margin:10px 0 15px 10px;}
+p#tokoton_desc{background:url(/img/user/top/desc_tokoton.gif) no-repeat 23px 0; width:234px; height:171px; text-indent:-9999px; overflow:hidden; padding:0 14px 0 23px; float:left;}
+h4#tokoton24{background:url(/img/user/top/h4_tokoton24.gif) no-repeat right; width:245px; height:74px; text-indent:-9999px; overflow:hidden; padding-bottom:20px;padding-left:10px;}
+p#tokoton24_desc{padding-left:280px;}
+
+
+/* いろは */
+
+div#box_iroha{background:url(/img/user/top/bg_iroha.gif) no-repeat right; width:528px; margin-top:20px; margin-left:37px; margin-bottom:40px;}
+h2#iroha{background:url(/img/user/top/h2_iroha.gif) no-repeat bottom; width:369px; height:60px; text-indent:-9999px; overflow:hidden; padding-top:6px;}
+p#iroha_desc{background:url(/img/user/top/desc_iroha.gif) no-repeat; width:369px; height:16px; text-indent:-9999px; overflow:hidden; margin-bottom:15px;}
+
+div#box_iroha ol li{margin-bottom:5px;}
+li#iroha1 a{background:url(/img/user/top/btn_iroha1.gif) no-repeat; width:343px; height:43px; text-indent:-9999px; overflow:hidden; display:block;}
+li#iroha1 a:hover{background:url(/img/user/top/btn_iroha1_act.gif) no-repeat bottom; width:343px; height:43px;}
+li#iroha2 a{background:url(/img/user/top/btn_iroha2.gif) no-repeat; width:343px; height:43px; text-indent:-9999px; overflow:hidden; display:block;}
+li#iroha2 a:hover{background:url(/img/user/top/btn_iroha2_act.gif) no-repeat bottom; width:343px; height:43px;}
+li#iroha3 a{background:url(/img/user/top/btn_iroha3.gif) no-repeat; width:343px; height:43px; text-indent:-9999px; overflow:hidden; display:block;}
+li#iroha3 a:hover{background:url(/img/user/top/btn_iroha3_act.gif) no-repeat bottom; width:343px; height:43px;}
+
+li#iroha4 a{background:url(/img/user/top/btn_iroha4.gif) no-repeat; width:343px; height:43px; text-indent:-9999px; overflow:hidden; display:block;}
+li#iroha4 a:hover{background:url(/img/user/top/btn_iroha4_act.gif) no-repeat bottom; width:343px; height:43px;}
+

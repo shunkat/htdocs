@@ -1,0 +1,395 @@
+@charset "UTF-8";
+
+/* Initialize */
+
+body,form,fieldset{margin:0; padding:0;}
+fieldset{border:none;}
+h1,h2,h3,h4,h5,h6,p,pre,blockquote,ul,ol,dl,dt,dd{margin:0; padding:0;}
+li{list-style:none;}
+
+html,body{height:100%;}
+
+body{line-height:150%;font-size:78%;color:#333333;}
+
+img{
+	border: none;
+}
+
+
+/*------------ 
+共通設定
+------------ */
+.text_center{
+	text-align: center;
+}
+
+.text_right{
+	text-align: right;
+}
+
+.text_right70{
+	text-align: right;
+	margin-right: 70px;
+}
+
+
+/* base layout */
+
+body div#header{width:920px;padding:22px 15px 0 15px;}
+body div#container{width:950px;text-align:left; border:1px solid #cccccc; border-top:7px solid #31c350;margin-left:auto;margin-right:auto;font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";}
+body div#footer{width:950px;border-top:1px solid #cccccc;background:#f8f8f8;}
+
+div#content{width:920px;padding:10px 15px;}
+
+/* layout */
+
+div.right{float:right;}
+div.left{float:left;}
+
+/* common tags */
+
+br.clear{clear:both;line-height:1px;}
+div.error{border:1px solid red;padding:10px;color:red;margin:10px 0;}
+
+/* header */
+ul#submenu{width:542px; float:right; margin-top:1px;}
+ul#submenu li{float:right; font-size:10pt; margin-left:5px;}
+ul#submenu li a{color:#444444; background:url(/img/user/separator.gif) no-repeat left; padding-left:10px;}
+ul#submenu li a:hover{color:#FF6600;}
+ul#submenu li#menu_end a{background:none;}
+
+ul#breadcrumb li{font-size:10pt; float:left;}
+ul#breadcrumb li a{color:#3399cc; background:url(/img/user/breadcrumb_arrow.gif) no-repeat right; margin-right:5px; padding-right:10px;}
+ul#breadcrumb li a:hover{color:#3366CC;}
+
+p#title{width:200px;float:left;}
+p#title a img{border:0;}
+
+h1{float:right; color:#00911f; font-size:100%;}
+p#lastupdate{text-align:right;color:#ffa200;font-weight:bold;font-size:9pt;}
+
+ul#mainmenu{background:url(/img/user/mainmenu_bg.gif) no-repeat; width:910px; height:28px; padding-left:10px; margin-top:18px;}
+ul#mainmenu li{float:left;}
+ul#mainmenu li img{border:0;}
+
+/*
+ul#mainmenu li#mainmenu_home a{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_useinfo a{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_tokoton24 a{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_list a{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_knowledge a{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_faq a{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_inquiry a{width:150px;height:28px;}
+
+ul#mainmenu li#mainmenu_home a:hover{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_useinfo a:hover{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_tokoton24 a:hover{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_list a:hover{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_knowledge a:hover{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_faq a:hover{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_inquiry a:hover{width:150px;height:28px;}
+
+ul#mainmenu li#mainmenu_home_act a{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_useinfo_act a{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_tokoton24_act a{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_list_act a{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_knowledge_act a{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_faq_act a{width:150px;height:28px;}
+ul#mainmenu li#mainmenu_inquiry_act a{width:150px;height:28px;}
+*/
+
+
+
+/* footer */
+div#footer ul#footer_menu{padding:10px 0 0 15px; float:left;}
+div#footer ul#footer_menu li{float:left;margin-right:5px;}
+ul#footer_menu li a{padding-right:10px; background:url(/img/user/separator.gif) no-repeat right; color:#666666;}
+ul#footer_menu li a:hover{color:#FF6600;}
+div#footer ul#footer_menu li#menu_end_footer a{background:none;}
+
+p#copyright{text-align:right;padding:10px 15px 10px 0;font-family:Arial, Helvetica, sans-serif;}
+div#pagetop a img{color:#686868; float:right;border:none;}
+
+/* sns */
+.sns{
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#sns_shop{
+	margin-bottom: -50px;
+	margin-top: 60px;
+}
+
+/*------------ CSSハック------------ */
+
+/* firefox */
+#sns_shop,  x:-moz-any-link  { margin-bottom: 5px; }
+
+/* IE6 */
+* html #sns_shop  { margin-bottom: 5px; }
+
+/* IE7 */
+*+html #sns_shop {  margin-bottom: 5px; }
+
+/* IE8 */
+#sns_shop { margin-bottom: 5px; }
+
+/* IE9 */
+#sns_shop:not(:target){margin-bottom: 5px;}
+
+
+#search_top_bottom{
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+/*--ブラウザ固有の「table」に対するCSSをリセット--*/
+table,th,td{
+	margin: 0;
+	padding: 0;
+}
+
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--「discount.html」のtableを設定--*/
+
+#table_box{
+	width:575px;
+	padding:10px 9px;
+	border:1px solid #80ad76;
+	border-bottom:none;
+	border-top: none;
+}
+
+.systemTable{
+	width: 543px;
+	margin: 10px 0px 0px 15px;
+}
+
+.systemTable th,
+.systemTable td{
+	width: 110px;
+	border: 1px solid #CCC;
+	text-align: center;
+	padding: 7px;
+}
+
+.green{
+	background: #F7FFE9;
+}
+
+.yellow{
+	background: #FFFBD4;
+}
+
+.blue{
+	background: #EEFBFF;
+}
+
+#body_top{
+	float: right;
+}
+
+/* ---------------------
+車検用語集ページ
+--------------------- */
+#glossary_topList{
+	margin-left: -35px;
+}
+
+#glossary_topList ul{
+	text-align: center;
+}
+
+#glossary_topList li{
+	display: inline;
+}
+
+.glossary_icon_bottom{
+	background: url(../../images/glossary/glossary_bottom.gif) no-repeat left;
+	padding-left: 15px;
+	line-height: 25px;
+}
+
+.list-container li{
+	display: inline;
+	background: url(../../images/glossary/glossary_right.gif) no-repeat;
+	padding-left: 15px;
+	float: left;
+	line-height: 25px;
+	margin: 3px;
+}
+
+.text_small{
+	font-size: 10px;
+	color:#666;
+	margin-left: 5px;
+}
+
+/* ---------------------
+5周年記念キャンペーン
+--------------------- */
+div#campaign{width:920px; margin-left:auto; margin-right:auto; color:#333333;}
+
+div#campaign a{
+	border: none;
+}
+div#campaign img{
+	border: none;
+}
+#camBox{
+	width: 834px;
+	padding: 0px 43px;
+}
+#camBox_left{
+	float: left;
+	width: 410px;
+	border: 1px solid #63A834;
+}
+#camBox_right{
+	float: right;
+	width: 410px;
+	border: 1px solid #63A834;
+}
+.cam_title{
+	width: 306px;
+	height: 24px;
+	padding: 8px 0px 8px 104px;
+	background: #63A834;
+}
+.cam_text{
+	padding: 8px;
+	height: 60px;
+}
+
+.cam_text p{
+	font-size: 16px;
+	line-height: 25px;
+}
+
+#cam_contact{
+	border: 1px solid #63A834;
+	width: 832px;
+	margin-top: 10px;
+}
+#cam_title02{
+	width: 647px;
+	padding: 8px 0px 8px 185px;
+	background: #63A834;
+}
+.cam_text02{
+	padding: 10px;
+}
+.cam_text02 p{
+	float: left;
+	font-size: 16px;
+	line-height: 25px;
+}
+*html .cam_text{
+	height: 65px;
+}
+*html .cam_text02 p{
+	padding-bottom: 10px;	
+}
+*+html .cam_text02 p{
+	padding-bottom: 10px;	
+}
+.cam_text02 img{
+	margin-left: 45px;
+}
+.campaign_contactText{
+	margin: 10px 0px 0px 20px;
+}
+#top_campaign_banner{
+	width: 566px;
+	height: 120px;
+	background: url(../../images/campaign/5year_campaign_banner02.jpg) no-repeat;
+	padding: 10px 0px 0px 9px;
+	margin-bottom: 5px;
+}
+#campaign_banner{
+	margin-bottom: 5px;
+}
+#campaign_banner img{
+	border: none;
+}
+#tyui{
+	padding: 10px;
+	margin-top: 10px;
+	background: #F2F2F2;
+}
+
+#estimate_formCamp img{
+	float: left;
+	margin-left: 170px;
+	margin-top: -40px;
+	border: none;
+}
+
+#shop_detailCamp img{
+	float: left;
+	margin-left: 74px;
+	margin-top:20px;
+	margin-bottom:-30px;
+	border: none;
+}
+/* 検索ボックス */
+
+div#box_search{background:url(/img/user/top/bg_search_bottom.gif) no-repeat bottom; padding-bottom:6px;margin-bottom:0px;}
+div.box_search_content{width:318px; border-left:1px solid #adadad; border-right:1px solid #adadad; background:#f6f6f6; padding-bottom:10px; text-align:center;}
+img#search_btn1{margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:5px;}
+img#search_btn2{margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:5px;}
+
+h2#search{width:320px; height:36px; margin-top:5px;}
+h3#search_region{width:320px; height:5px;}
+p#search_region_desc{ width:318px; height:32px;}
+
+h3#search_freeword{width:320px; height:40px;}
+p#search_freeword_desc{ width:318px; height:32px; }
+input#freeword{margin:15px 0 3px 0;}
+input#freeword2{margin:0 5px 5px 0;}
+p#example{width:150px; margin-left:40px; _margin-left:-80px;}
+
+h3#search_option{ width:320px; height:51px; }
+p#search_option_desc{ width:318px; height:32px;}
+p#search_option_check_desc{ width:318px; height:26px; margin-bottom:10px;}
+ul#option_list{margin-left:7px;}
+ul#option_list li{width:146px; height:36px; float:left; background:#FFFFFF; border:1px solid #cccccc; margin-bottom:6px;}
+ul#option_list li.option_left{margin-right:7px;}
+ul#option_list input{float:left; margin:8px 0 0 5px;}
+img#option1{  margin-top:6px; float:right; margin-right:3px;}
+img#option2{  margin-top:6px; float:right; margin-right:3px;}
+img#option3{  margin-top:6px; float:right; margin-right:3px;}
+img#option4{  margin-top:6px; float:right; margin-right:3px;}
+img#option5{  margin-top:6px; float:right; margin-right:3px;}
+img#option6{  margin-top:6px; float:right; margin-right:3px;}
+img#option7{  margin-top:6px; float:right; margin-right:3px;}
+img#option8{  margin-top:6px; float:right; margin-right:3px;}
+img#option9{  margin-top:5px; float:right; margin-right:3px;}
+img#option10{  margin-top:5px; float:right; margin-right:3px;}
+img#option11{  margin-top:5px; float:right; margin-right:3px;}
+img#option12{  margin-top:5px; float:right; margin-right:3px;}
+img#option13{  margin-top:6px; float:right; margin-right:3px;}
+img#option14{  margin-top:5px; float:right; margin-right:3px;}
+img#option15{  margin-top:6px; float:right; margin-right:3px;}
+img#option16{  margin-top:5px; float:right; margin-right:3px;}
+
+
+/* 地域表示 */
+
+dl#area_list_category{margin:5px;}
+dl#area_list_category dt{float:left;clear:both;width:73px;height:40px;line-height:40px;color:#3c8a3f;background:#e1f7b2;margin-bottom:5px;border:1px solid #c7df94;}
+dl#area_list_category dd{margin-left:75px;width:224px;height:36px;background:#FFFFFF;padding:2px;border:1px solid #cccccc;margin-bottom:5px;}
+ul.area_list_detail{}
+dl#area_list_category dd ul.area_list_detail li{float:left;width:39px;margin-right:5px;}
+dl#area_list_category dd ul.area_list_detail li a{color:blue;}
+dl#area_list_category dd ul.area_list_detail li a:hover{color:orange;}
+ul.area_list_detail li.last{}
